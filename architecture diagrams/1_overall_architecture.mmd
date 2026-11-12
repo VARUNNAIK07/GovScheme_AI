@@ -1,0 +1,64 @@
+flowchart TB
+    subgraph FE["Frontend - React / Vite"]
+        ON["Onboarding"]
+        LIB["Library"]
+        DET["Scheme Detail"]
+        CMP["Comparison"]
+        PDF["PDF Viewer + Highlight"]
+    end
+
+    subgraph BE["FastAPI Backend"]
+        API["Routes + JWT Auth"]
+        CTRL{"Workflow Controller<br/>W1 - W6"}
+        CACHE[("Cache<br/>LRU + workflow_runs")]
+        subgraph AG["Deterministic Agents"]
+            PA["Profiling"]
+            EA["Eligibility"]
+            SA["Scoring"]
+        end
+        REG["Agent Registry"]
+        subgraph KN["Knowledge Layer - RAG"]
+            RA["Retrieval"]
+            SU["Summary"]
+            CO["Comparison"]
+            CI["Citation"]
+            SS["Scheme Store"]
+            EMB["BGE Embedder"]
+            LLM["LLM Client"]
+        end
+    end
+
+    subgraph DS["Data Stores"]
+        PG[("PostgreSQL")]
+        QD[("Qdrant<br/>scheme_chunks")]
+        FS[("Raw PDFs")]
+    end
+
+    subgraph EXT["LLM Providers"]
+        GROQ["Groq"]
+        GEM["Gemini"]
+    end
+
+    subgraph OFF["Offline Ingestion"]
+        ING["Scrape - Parse - Chunk - Embed - Load DB - Extract Facts"]
+    end
+
+    GOV["Official gov.in PDFs"]
+
+    FE -->|"HTTPS + JWT"| API
+    API --> CTRL
+    CTRL <--> CACHE
+    CTRL --> PA & EA & SA
+    CTRL --> REG
+    REG --> RA & SU & CO & CI & SS
+    RA --> EMB
+    RA --> QD
+    SS --> PG
+    CI --> PG
+    SU --> LLM
+    LLM --> GROQ
+    LLM -.->|fallback| GEM
+    API --> FS
+    GOV --> ING
+    ING --> FS & QD & PG
+    ING --> LLM

@@ -1,0 +1,16 @@
+flowchart TB
+    A["Rule: field op value + kind"] --> B{"Manual operator or<br/>unmapped field?"}
+    B -->|yes| AMB["Ambiguous"]
+    B -->|no| C{"Profile field missing?"}
+    C -->|yes| UNK["Unknown"]
+    C -->|no| D{"Condition true?"}
+    D -->|"required + true"| PASS["Pass"]
+    D -->|"required + false"| FAIL["Fail"]
+    D -->|"exclusion + true"| FAIL
+    D -->|"exclusion + false"| PASS
+    PASS & FAIL & UNK & AMB --> AGG{"Aggregate"}
+    AGG -->|"no rules"| NV["NEEDS_VERIFICATION"]
+    AGG -->|"any fail"| NE["NOT_ELIGIBLE"]
+    AGG -->|"all pass"| EL["ELIGIBLE"]
+    AGG -->|"any unknown"| PE["PARTIALLY_ELIGIBLE"]
+    AGG -->|"pass + ambiguous"| NV

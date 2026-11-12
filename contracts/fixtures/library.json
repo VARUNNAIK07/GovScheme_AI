@@ -1,0 +1,55 @@
+{
+  "_fixture": true,
+  "_model": "LibraryResult",
+  "_note": "Contract fixture for stubs/MSW. Evidence/citations are REAL chunks of the official PMSBY Rules PDF (jansuraksha.gov.in, doc_id 195a99298e85821b, copied to fixtures/sample.pdf). Statuses, scores and anything marked [FIXTURE] are synthetic and must never be shown as real results.",
+  "profile_version": 1,
+  "top": [
+    {
+      "scheme_id": "pm-kisan",
+      "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+      "department": "Ministry of Agriculture & Farmers Welfare (DA&FW)",
+      "sector": "agriculture_rural",
+      "eligibility_status": "PARTIALLY_ELIGIBLE",
+      "eligibility_reason": "[FIXTURE] Land ownership details needed.",
+      "match_percent": 78
+    },
+    {
+      "scheme_id": "pm-kmy",
+      "name": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)",
+      "department": "Ministry of Agriculture & Farmers Welfare (DA&FW)",
+      "sector": "financial_inclusion",
+      "eligibility_status": "NEEDS_VERIFICATION",
+      "eligibility_reason": "[FIXTURE] Some exclusions need an official check.",
+      "match_percent": 66
+    },
+    {
+      "scheme_id": "pmsby",
+      "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+      "department": "Ministry of Finance (DFS)",
+      "sector": "financial_inclusion",
+      "eligibility_status": "NEEDS_VERIFICATION",
+      "eligibility_reason": "[FIXTURE] Bank account holding needs a check.",
+      "match_percent": 52
+    },
+    {
+      "scheme_id": "pmjjby",
+      "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+      "department": "Ministry of Finance (DFS)",
+      "sector": "financial_inclusion",
+      "eligibility_status": "NEEDS_VERIFICATION",
+      "eligibility_reason": "[FIXTURE] Eligibility criteria not extracted yet.",
+      "match_percent": 41
+    }
+  ],
+  "more": [
+    {
+      "scheme_id": "pmfby",
+      "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+      "department": "Ministry of Agriculture & Farmers Welfare (DA&FW)",
+      "sector": "agriculture_rural",
+      "eligibility_status": "NEEDS_VERIFICATION",
+      "eligibility_reason": "[FIXTURE] Eligibility criteria not extracted yet.",
+      "match_percent": null
+    }
+  ]
+}

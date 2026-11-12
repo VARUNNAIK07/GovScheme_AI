@@ -1,0 +1,83 @@
+scheme_id,url,fetch,note
+pm-kisan,https://keralaagriculture.gov.in/wp-content/uploads/2019/02/operational_GuidePM.pdf,auto,2019 original OG (state-hosted copy)
+pmfby,https://pmfby.gov.in/pdf/Revamped%20Operational%20Guidelines_17th%20August%202020.pdf,auto,"Revamped OG, effective Kharif 2020"
+pm-kusum,https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/01/20240118413909461.pdf,auto,"Comprehensive guidelines, 17 Jan 2024"
+pm-kmy,https://pmkisan.gov.in/Documents/PM-KMY%20-%20Operational%20Guidelines.pdf,auto,Operational Guidelines 2019
+aif,https://pmkisan.gov.in/Documents/Operational%20Guidelines%20of%20Financing%20Facility%20under%20Agriculture%20Infrastructure%20Fund.pdf,auto,2020 scheme guidelines
+pmmsy,https://www.dof.gov.in/static/uploads/2025/08/89f0158000ddb527f339428aef82a676.pdf,manual,OG June 2020 (re-uploaded Aug 2025)
+pmksy-pdmc,https://cdp.nhb.gov.in/cdp_docs/PDMC%20guidlines.pdf,auto,Operational Guidelines 2025
+smam,https://agrimachinery.nic.in/Files/Guidelines/SMAMGiudeline2020-21.pdf,auto,Revised 2020-21
+pre-matric-scholarship-sc,https://socialjustice.gov.in/public/ckeditor/upload/90101653029266.pdf,manual,March 2022 (2021-22 to 2025-26)
+pm-yasasvi,https://scholarships.gov.in/public/schemeGuidelines/HP_state_scheme/Centrally%20Sponsored%20Scheme%20of%20Post%20Matric%20Scholarship%20Scheme%20for%20OBC_scheme.pdf,auto,2021-22 to 2025-26
+nmmss,https://scholarships.gov.in/public/schemeGuidelines/NMMSSGuidelines.pdf,auto,Revised March 2022 (from FY 2022-23)
+pm-usp-csss,https://scholarships.gov.in/public/schemeGuidelines/CSSS_GUIDLINES_07022024_updated.pdf,auto,Updated 07-02-2024
+pm-vidyalaxmi,https://static.investindia.gov.in/s3fs-public/2025-03/pm_vidyalaxmi_scheme_guidelines.pdf,auto,Guidelines for loans after 6 Nov 2024
+nos-sc,https://socialjustice.gov.in/writereaddata/UploadFile/68641776927848.pdf,manual,2026-27 guidelines
+post-matric-scholarship-st,https://scholarships.gov.in/public/schemeGuidelines/Post-matric-guidelines-ST.pdf,auto,Applicable from 1 April 2022
+scholarships-pwd,https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2024/09/202409261656732428.pdf,auto,Revised 25-09-2024 (+ revision notice 04-09-2025)
+top-class-education-sc,https://socialjustice.gov.in/public/ckeditor/upload/28551703139676.pdf,manual,Dec 2023 upload
+national-fellowship-sc,https://socialjustice.gov.in/writereaddata/UploadFile/13931747731685.pdf,manual,"w.e.f. 25-11-2021, modified 13-03-2023"
+free-coaching-sc-obc,https://socialjustice.gov.in/public/ckeditor/upload/29011669199061.pdf,manual,Nov 2022 upload
+pmkvy-4,https://www.msde.gov.in/static/uploads/2024/02/PMKVY-4.0-Guidelines_final-copy.pdf,manual,Feb 2024
+pm-vishwakarma,https://pmvishwakarma.gov.in/cdn/MiscFiles/eng_v30.0_PM_Vishwakarma_Guidelines_final.pdf,auto,v30.0
+ddu-gky,https://cdnbbsr.s3waas.gov.in/s3e9412ee564384b987d086df32d4ce6b7/uploads/2025/01/20250125577314628.pdf,auto,SOP Part I v2.0.0 (Sept 2015)
+naps,https://www.msde.gov.in/static/uploads/2024/04/Guidelines-for-NAPS.pdf,manual,Original NAPS (2016-20 framework); host returns 403 to automated clients
+pm-internship,https://www.ugc.gov.in/pdfnews/0696290_PMIS_Guidelines.pdf,auto,Revised guidelines (O.M. 12-03-2026) circulated by UGC
+vb-g-ram-g,https://www.dord.gov.in/static/uploads/2026/02/9a986aa573d5b9bef52d25eca6542994.pdf,manual,"Implementation note, Feb 2026"
+pm-daksh,https://pmdaksh.dosje.gov.in/assets/uploads/Guidelines.pdf,manual,Scheme Guidelines 2024-25
+pmegp,https://www.kviconline.gov.in/pmegpeportal/dashboard/notification/PMEGP_Guidelines_Certified_2022_3.pdf,manual,Certified 2022 + amendment 07-12-2023
+pm-svanidhi,https://www.mohua.gov.in/static/uploads/2026/01/bde957bc3a87fb001c05ddd09484edda.pdf,manual,"Revised guidelines, Jan 2026"
+stand-up-india,https://samarth.powermin.gov.in/content/policies/5f0f87c0-6620-4fae-b440-d11d67d0b2a0.pdf,auto,Guidelines (date unknown)
+pmfme,https://pmfme.mofpi.gov.in/newsletters/docs/SchemeGuidelines.pdf,auto,Scheme guidelines (2020-21 to 2024-25)
+ab-pmjay,https://nha.gov.in/img/resources/Operation%20Manual%20for%20AB%20PM-JAY.pdf,manual,Operation manual
+jsy,https://nhm.gov.in/images/pdf/programmes/maternal-health/guidelines/jsy_guidelines_2006.pdf,manual,2006 guidelines
+ran,https://mohfw.gov.in/sites/default/files/25632541254789653265.pdf,manual,Pre-umbrella version (c. 2016-17); host returns 403 to automated clients
+pmmvy,https://www.spniwcd.wcd.gov.in/uploads/pdf/1710109969_IuPuOPPEYF.pdf,manual,PMMVY scheme implementation guidelines (2.0); downloaded by hand 2026-10-13
+mission-shakti-osc,https://missionshakti.wcd.gov.in/public/documents/whatsnew/Mission_Shakti_Guidelines.pdf,auto,"Mission Shakti guidelines, 14 July 2022"
+mission-vatsalya,https://cara.wcd.gov.in/pdf/Mission%20Vatsalya%20Guideline.pdf,manual,Guidelines 5 July 2022
+sukanya-samriddhi,https://www.nsiindia.gov.in/writereaddata/SchemeRules/SukanyaSamriddhiAccountSchemeRule.pdf,auto,"Scheme 2019 (G.S.R. 914(E)), amended 2020"
+pmay-g,https://cdnbbsr.s3waas.gov.in/s31c87860778df9675a35aa14d3bee8776/uploads/2025/12/202512167370436.pdf,auto,Framework for Implementation (Dec 2025 upload)
+pmay-u-2,https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf,auto,"Operational Guidelines, Sept 2024"
+sbm-g,https://swachhbharatmission.ddws.gov.in/sites/default/files/Guidelines/SBMG%20Phase-II%20Operational%20Guidelines.pdf,auto,Phase II OG 2020 (+ chapter 15/16 amendments)
+pm-surya-ghar,https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/07/202407021768035484.pdf,auto,"Operational guidelines, residential CFA, 7 June 2024"
+nsap,http://www.esomsa.hp.gov.in/sites/default/files/NSAP.pdf,auto,NSAP Guidelines (state-hosted copy; version to confirm)
+adip,https://adip.depwd.gov.in/files/ADIP_English.pdf,auto,Version unclear (2022 or 2024)
+avyay,"https://scw.dosje.gov.in/public/uploads/documents/AVYAY%20CS%20scheme%20(RVY,%20Elderline,%20Geriatric%20Care,%20Other%20initiatives,%20SAGE).pdf",auto,Central sector guidelines 2021-26
+smile,https://socialjustice.gov.in/writereaddata/UploadFile/96761752120606.pdf,manual,2nd revision w.e.f. 10-06-2025
+pmjjby,https://jansuraksha.gov.in/Files/PMJJBY/English/Rules.pdf,auto,Revised rules w.e.f. 1-6-2022
+pmsby,https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf,auto,Rules w.e.f. 1-6-2022
+pm-sym,https://www.labour.gov.in/static/uploads/2025/06/49a10165d1cf6f46e3bfbb52ba14f325.pdf,manual,Ministry fact sheet (2025); host returns 403 to automated clients
+scholarships-pwd,https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2025/09/202509111852335844.pdf,auto,2025-09-04 revision notice
+post-matric-scholarship-sc,https://sje.gujarat.gov.in/dscw/assets/downloads/gr6_dscw_sje_02092022.pdf,auto,Gujarat govt copy (02-09-2022 GR) of March 2021 guidelines; 434 KB vs 2.68 MB original - check completeness
+scss,https://www.nsiindia.gov.in/writereaddata/SchemeRules/SeniorCitizensSavingsSchemeRule.pdf,auto,batch 2026-10-13
+ppf,https://www.nsiindia.gov.in/writereaddata/SchemeRules/PublicProvidentFundSchemeRule.pdf,auto,batch 2026-10-13
+kvp,https://www.nsiindia.gov.in/writereaddata/SchemeRules/KisanVikasPatra.pdf,auto,batch 2026-10-13
+pomis,https://www.nsiindia.gov.in/writereaddata/SchemeRules/MonthlyIncomeAccountRule.pdf,auto,batch 2026-10-13
+nbp-biogas,https://biogas.mnre.gov.in/public/downloadables/MNRE%20Biogas%20Prog%202021%20to%202026%20%20dated%2002_11_2022.pdf,auto,batch 2026-10-13
+pm-e-drive,https://pmedrive.heavyindustries.gov.in/docs/policy_document/Operatioal%20Guidelines%20dt.%2030.09.2024%20for%20P%20E-DRIVE.pdf,auto,batch 2026-10-13
+model-solar-village,https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/08/2024080998431910.pdf,auto,batch 2026-10-13
+solar-tribal-pvtg,https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/10/20241021925042646.pdf,auto,batch 2026-10-13
+nikshay-poshan,https://tbcindia.mohfw.gov.in/wp-content/uploads/2023/05/6851513623Nutrition-support-DBT-Scheme-details.pdf,auto,batch 2026-10-13
+pmbjk,https://janaushadhi.gov.in/pdf/Guidelines_for_PMBJK_Opening.pdf,auto,batch 2026-10-13
+pmndp,https://nhm.assam.gov.in/sites/default/files/swf_utility_folder/departments/nhm_lipl_in_oid_6/menu/document/pmndp_approved_district_rop_guidlines_fy_2024-2026.pdf,auto,"Assam NHM district ROP guidelines 2024-26 - state budget/operations doc, not the national guidelines; original official URL failed: https://nhm.gov.in/New_Updates_2018/PMNDP/Guidelines_for_PMNDP.pdf"
+jssk,https://nhmodisha.gov.in/wp-content/uploads/2024/02/JSSK-and-JSY.pdf,auto,batch 2026-10-13
+pmsma,https://nhm.hp.gov.in/storage/app/media/uploaded-files/PMSMA-Guidelines.pdf,auto,batch 2026-10-13
+rbsk,https://pmposhan.education.gov.in/Files/School%20Health%20Programme/Nutrition_Support/Rastriya_Bal_Swaasthya_Karyakram.pdf,auto,batch 2026-10-13
+bsky-odisha,https://bsky.odisha.gov.in/application/storage/app/uploads/6387534f7ee441669813071.pdf,manual,batch 2026-10-13; downloaded by hand 2026-10-13
+kanyashree-wb,https://www.wbkanyashree.gov.in/readwrite/notice_publications/01-Kanyashree%20Prakalpa%20Guidelines.pdf,manual,batch 2026-10-13; check failed: URLError: <urlopen error [WinError 10061] No connection could be made because the target m
+mksy-up,https://www.mksy.up.gov.in/women_welfare/pdf/officer-mannual.pdf,auto,batch 2026-10-13
+poshan-2,https://wcd.delhi.gov.in/sites/default/files/WCD/generic_multiple_files/final_saksham_anganwadi_and_mission.pdf,auto,Delhi WCD copy (spniwcd.wcd.gov.in server errors on robots.txt); original official URL failed: https://www.spniwcd.wcd.gov.in/uploads/pdf/Mission%20Saksham%20Anganwadi%20and%20Poshan%202.0%20scheme%20guidelines.pdf
+pm-janman,https://adiprasaran.tribal.gov.in/pm-janman/janman_Download/PM-JANMAN-Operational%20Guidelines.pdf,auto,batch 2026-10-13
+namaste,https://nskfdc.nic.in/en/system/files/Annexure-%20I%20Revised%20Scheme%20Guidelines%20for%20SSWs%20in%20English%20and%20Hindi_compressed.pdf,manual,batch 2026-10-13; check failed: URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+pm-ajay,https://pmajay.dosje.gov.in/Writereaddata/Guidelines_PM-Ajay_may2023.pdf,auto,batch 2026-10-13
+day-nrlm,https://msrls.nic.in/sites/default/files/nrlm-framework.pdf,auto,batch 2026-10-13
+sbm-u,https://static.investindia.gov.in/Swachh%20Bharat%20Mission.pdf,auto,Invest India copy of SBM-U guidelines (rev. 5 Oct 2017); original official URL failed: https://swachhbharaturban.gov.in/writereaddata/SBM_GUIDELINE.pdf
+suh-nulm,https://nulm.gov.in/PDF/NULM_Mission/NULM-SUH-Guidelines.pdf,auto,batch 2026-10-13
+sfurti,https://sfurti.msme.gov.in/WriteReadData/Circular/SFURTI_NEW.pdf,auto,batch 2026-10-13
+nbhm,https://horticulture.tg.nic.in/BeeKeeping/Downloads/NBHM%20Guidelines%202020-21.pdf,auto,batch 2026-10-13
+midh,https://nhb.gov.in/writereaddata/MIDH_Guidelines.pdf,auto,batch 2026-10-13
+fpo-10000,https://static.pib.gov.in/WriteReadData/userfiles/FPO%20Scheme%20Guidelines.pdf,auto,batch 2026-10-13
+pm-vbry,https://pmvbry.epfindia.gov.in/wp-content/themes/epfo-child/assets/images/Print-ready-scheme-300720251750-v1.pdf,auto,batch 2026-10-13
+nmnf,https://www.manage.gov.in/nf/NMNF-Guidelines.pdf,auto,batch 2026-10-13
+rgm,https://livestock.assam.gov.in/sites/default/files/swf_utility_folder/departments/alda_webcomindia_org_oid_5/menu/document/Guidelinesd%20of%20RGM%20%207.pdf,auto,"Assam livestock dept copy, 70 KB - likely older/shorter than the June 2025 DAHD version; original official URL failed: https://dahd.gov.in/sites/default/files/2025-06/FinalOperationalGuidelinesforRevisedRashtriyaGokulMission-v1-4-6-2025.pdf"
+soil-health-card,https://www.nitiforstates.gov.in/public-assets/Policy/policy-repo/agriculture-and-allied-services/SNC511A000049.pdf,auto,batch 2026-10-13

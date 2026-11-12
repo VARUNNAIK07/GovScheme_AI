@@ -1,0 +1,24 @@
+{
+  "_fixture": true,
+  "user_id": "usr_ramesh_42",
+  "version": 1,
+  "complete": true,
+  "attributes": {
+    "age": 42,
+    "gender": "male",
+    "state": "Madhya Pradesh",
+    "district": "Sehore",
+    "area_type": "rural",
+    "social_category": "obc",
+    "annual_family_income_inr": 120000,
+    "is_bpl": false,
+    "occupation": "farmer",
+    "education_level": "Secondary (10th)",
+    "disability": false,
+    "disability_percent": null,
+    "marital_status": "married",
+    "land_holding_acres": 2.5,
+    "sectors_of_interest": ["agriculture", "housing"],
+    "needs": ["crop insurance", "income support", "irrigation subsidy"]
+  }
+}

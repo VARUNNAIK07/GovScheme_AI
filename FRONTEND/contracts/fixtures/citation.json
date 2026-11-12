@@ -1,0 +1,12 @@
+{
+  "_fixture": true,
+  "citation_id": "9b3f4e2a10d87c11-p1-c1",
+  "doc_id": "9b3f4e2a10d87c11",
+  "file_url": "/api/documents/9b3f4e2a10d87c11/file",
+  "page": 1,
+  "bbox": [54.0, 520.0, 540.0, 575.0],
+  "quote": "The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) scheme provides an income support of Rs. 6000/- per year to all farmer families across the country in three equal four-monthly installments of Rs. 2000/- each.",
+  "source_url": "https://pmkisan.gov.in/Documents/PM-Kisan-Guidelines-Revised.pdf",
+  "doc_version": 1,
+  "precision": "passage"
+}

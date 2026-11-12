@@ -1,0 +1,65 @@
+scheme_id,pdf_url,robots,http_status,content_type,size_bytes,pdf_magic,final_url,error
+pm-kisan,https://keralaagriculture.gov.in/wp-content/uploads/2019/02/operational_GuidePM.pdf,allowed,206,application/pdf,245589,yes,,
+pm-kisan-hi,https://agriwelfare.gov.in/sites/default/files/NewHindiPMKisanOperationalGuidelines.pdf,allowed,206,application/pdf,987648,yes,,
+pmfby,https://pmfby.gov.in/pdf/Revamped%20Operational%20Guidelines_17th%20August%202020.pdf,allowed,206,application/pdf,9871316,yes,,
+pm-kusum,https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/01/20240118413909461.pdf,no-robots,206,application/pdf,8899375,yes,,
+pm-kmy,https://pmkisan.gov.in/Documents/PM-KMY%20-%20Operational%20Guidelines.pdf,no-robots,206,application/pdf,1131666,yes,,
+aif,https://pmkisan.gov.in/Documents/Operational%20Guidelines%20of%20Financing%20Facility%20under%20Agriculture%20Infrastructure%20Fund.pdf,no-robots,206,application/pdf,412190,yes,,
+pmmsy,https://www.dof.gov.in/static/uploads/2025/08/89f0158000ddb527f339428aef82a676.pdf,no-robots,403,,,,,Forbidden
+pmksy-pdmc,https://cdp.nhb.gov.in/cdp_docs/PDMC%20guidlines.pdf,allowed,206,application/pdf,4679007,yes,,
+smam,https://agrimachinery.nic.in/Files/Guidelines/SMAMGiudeline2020-21.pdf,allowed,206,application/pdf,702971,yes,,
+pre-matric-scholarship-sc,https://socialjustice.gov.in/public/ckeditor/upload/90101653029266.pdf,unknown,,,,,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+pm-yasasvi,https://socialjustice.gov.in/social-audit/public/schemesdoc/PM_Yasasvi_scheme.pdf,unknown,,,,,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+nmmss,https://dsel.education.gov.in/sites/default/files/NMMSS_Guidelines_22.pdf,no-robots,403,,,,,Forbidden
+pm-usp-csss,https://scholarships.gov.in/public/schemeGuidelines/CSSS_GUIDLINES_07022024_updated.pdf,no-robots,206,application/pdf;charset=ISO-8859-1,440308,yes,,
+pm-vidyalaxmi,https://www.education.gov.in/sites/upload_files/mhrd/files/document-reports/PM_Vidyalaxmi_Scheme_Guidelines.pdf,no-robots,403,,,,,Forbidden
+nos-sc,https://socialjustice.gov.in/writereaddata/UploadFile/68641776927848.pdf,unknown,,,,,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+post-matric-scholarship-st,https://tribal.nic.in/downloads/guidelines/post-matric/Post-matric-guidelines-15032023.pdf,unknown,,,,,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+scholarships-pwd,https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2024/09/202409261656732428.pdf,no-robots,206,application/pdf,1457647,yes,,
+scholarships-pwd-rev2025,https://cdnbbsr.s3waas.gov.in/s3e58aea67b01fa747687f038dfde066f6/uploads/2025/09/202509111852335844.pdf,no-robots,206,application/pdf,2985253,yes,,
+top-class-education-sc,https://socialjustice.gov.in/public/ckeditor/upload/28551703139676.pdf,unknown,,,,,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+national-fellowship-sc,https://socialjustice.gov.in/writereaddata/UploadFile/13931747731685.pdf,unknown,,,,,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+free-coaching-sc-obc,https://socialjustice.gov.in/public/ckeditor/upload/29011669199061.pdf,unknown,,,,,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+pmkvy-4,https://www.msde.gov.in/static/uploads/2024/02/PMKVY-4.0-Guidelines_final-copy.pdf,no-robots,403,,,,,Forbidden
+pm-vishwakarma,https://pmvishwakarma.gov.in/cdn/MiscFiles/eng_v30.0_PM_Vishwakarma_Guidelines_final.pdf,no-robots,206,application/pdf,11140167,yes,,
+ddu-gky,https://cdnbbsr.s3waas.gov.in/s3e9412ee564384b987d086df32d4ce6b7/uploads/2025/01/20250125577314628.pdf,no-robots,206,application/pdf,3027753,yes,,
+naps,https://www.msde.gov.in/static/uploads/2024/04/Guidelines-for-NAPS.pdf,no-robots,403,,,,,Forbidden
+pm-internship,https://pminternship.mca.gov.in/assets/docs/PMIS_Guidelines.pdf,no-robots,404,,,,,Not Found
+vb-g-ram-g,https://www.dord.gov.in/static/uploads/2026/02/9a986aa573d5b9bef52d25eca6542994.pdf,no-robots,403,,,,,Forbidden
+pm-daksh,https://pmdaksh.dosje.gov.in/assets/uploads/Guidelines.pdf,unknown,,,,,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+pmegp,https://www.kviconline.gov.in/pmegpeportal/dashboard/notification/PMEGP_Guidelines_Certified_2022_3.pdf,unknown,,,,,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+pmegp-amend2023,https://www.kviconline.gov.in/pmegpeportal/dashboard/notification/Revised_PMEGP_Scheme_Guidelines_07122023_compressed.pdf,unknown,,,,,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+pm-svanidhi,https://www.mohua.gov.in/static/uploads/2026/01/bde957bc3a87fb001c05ddd09484edda.pdf,no-robots,403,,,,,Forbidden
+stand-up-india,https://samarth.powermin.gov.in/content/policies/5f0f87c0-6620-4fae-b440-d11d67d0b2a0.pdf,no-robots,200,application/pdf,768111,yes,,
+pmfme,https://pmfme.mofpi.gov.in/newsletters/docs/SchemeGuidelines.pdf,no-robots,206,application/pdf,2489589,yes,,
+sisfs,https://www.startupindia.gov.in/content/dam/invest-india/Templates/public/Guidelines%20for%20Startup%20India%20Seed%20Fund%20Scheme.pdf,no-robots,206,application/pdf,289846,yes,,
+ab-pmjay,https://nha.gov.in/img/resources/Operation%20Manual%20for%20AB%20PM-JAY.pdf,DISALLOWED,,,,,,skipped: robots.txt disallows
+jsy,https://nhm.gov.in/images/pdf/programmes/maternal-health/guidelines/jsy_guidelines_2006.pdf,unknown,,,,,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+ran,https://mohfw.gov.in/sites/default/files/25632541254789653265.pdf,no-robots,403,,,,,Forbidden
+pmmvy,https://www.spniwcd.wcd.gov.in/uploads/pdf/1710109969_IuPuOPPEYF.pdf,allowed,206,application/pdf,15784919,yes,,
+pmay-g,https://pmayg.dord.gov.in/netiayHome/Uploaded/Guidelines-English_Book_Final.pdf,no-robots,206,application/pdf,6702111,yes,,
+pmay-g-2025,https://cdnbbsr.s3waas.gov.in/s31c87860778df9675a35aa14d3bee8776/uploads/2025/12/202512167370436.pdf,no-robots,206,application/pdf,7672645,yes,,
+pmay-u-2,https://pmay-urban.gov.in/uploads/guidelines/Operational-Guidelines-of-PMAY-U-2.pdf,allowed,206,application/pdf,5771975,yes,,
+pm-surya-ghar,https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/07/202407021768035484.pdf,no-robots,206,application/pdf,1284739,yes,,
+sbm-g,https://swachhbharatmission.ddws.gov.in/sites/default/files/Guidelines/SBMG%20Phase-II%20Operational%20Guidelines.pdf,no-robots,206,application/pdf,17044035,yes,,
+sukanya-samriddhi,https://www.nsiindia.gov.in/writereaddata/SchemeRules/SukanyaSamriddhiAccountSchemeRule.pdf,no-robots,206,application/pdf,338192,yes,,
+mission-vatsalya,https://cara.wcd.gov.in/pdf/Mission%20Vatsalya%20Guideline.pdf,no-robots,403,,,,,Forbidden
+mission-shakti-osc,https://missionshakti.wcd.gov.in/public/documents/whatsnew/Mission_Shakti_Guidelines.pdf,no-robots,206,application/pdf,2858371,yes,,
+nsap,http://www.esomsa.hp.gov.in/sites/default/files/NSAP.pdf,no-robots,206,application/pdf,580827,yes,,
+adip,https://adip.depwd.gov.in/files/ADIP_English.pdf,no-robots,206,application/pdf,1352417,yes,,
+smile,https://socialjustice.gov.in/writereaddata/UploadFile/96761752120606.pdf,unknown,,,,,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+pmjjby,https://jansuraksha.gov.in/Files/PMJJBY/English/Rules.pdf,no-robots,206,application/pdf,111635,yes,,
+pmsby,https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf,no-robots,206,application/pdf,87636,yes,,
+apy,https://pfrda.org.in/documents/33652/145099/17.pdf,DISALLOWED,,,,,,skipped: robots.txt disallows
+pm-sym,https://www.labour.gov.in/static/uploads/2025/06/49a10165d1cf6f46e3bfbb52ba14f325.pdf,no-robots,403,,,,,Forbidden
+pmjdy,https://pmjdy.gov.in/files/E-Documents/PMJDY_BROCHURE_ENG.pdf,no-robots,206,application/pdf,4460654,yes,,
+pm-internship,https://www.ugc.gov.in/pdfnews/0696290_PMIS_Guidelines.pdf,allowed,206,application/pdf,1507014,yes,,
+post-matric-scholarship-st,https://scholarships.gov.in/public/schemeGuidelines/Post-matric-guidelines-ST.pdf,no-robots,206,application/pdf;charset=ISO-8859-1,612474,yes,,
+pmmsy,https://nfdb.gov.in/PDF/PMMSY-Guidelines24-June2020.pdf,unknown,,,,,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+nmmss,https://scholarships.gov.in/public/schemeGuidelines/NMMSSGuidelines.pdf,no-robots,206,application/pdf;charset=ISO-8859-1,3687174,yes,,
+pm-yasasvi,https://scholarships.gov.in/public/schemeGuidelines/HP_state_scheme/Centrally%20Sponsored%20Scheme%20of%20Post%20Matric%20Scholarship%20Scheme%20for%20OBC_scheme.pdf,no-robots,206,application/pdf;charset=ISO-8859-1,624159,yes,,
+pm-vidyalaxmi,https://static.investindia.gov.in/s3fs-public/2025-03/pm_vidyalaxmi_scheme_guidelines.pdf,allowed,206,application/pdf,435004,yes,,
+pmegp,https://www.kvic.gov.in/kvicres/update/pmegp/New%20PMEGP%20guidelines.pdf,DISALLOWED,,,,,,skipped: robots.txt disallows
+pm-sym,https://www.epfindia.gov.in/site_docs/PDFs/MiscPDFs/Scheme_PM-SYM.pdf,allowed,404,,,,,Not Found
+top-class-education-sc,https://scholarships.gov.in/public/schemeGuidelines/ApprovedmodifieddraftofTopClassCollege.pdf,no-robots,206,application/pdf;charset=ISO-8859-1,246251,yes,,
+avyay,"https://scw.dosje.gov.in/public/uploads/documents/AVYAY%20CS%20scheme%20(RVY,%20Elderline,%20Geriatric%20Care,%20Other%20initiatives,%20SAGE).pdf",allowed,206,application/pdf,832609,yes,,

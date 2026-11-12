@@ -1,0 +1,11 @@
+{
+  "name": "govscheme-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GovScheme AI Root Workspace",
+  "scripts": {
+    "dev": "npm --prefix FRONTEND/frontend run dev",
+    "build": "npm --prefix FRONTEND/frontend run build",
+    "preview": "npm --prefix FRONTEND/frontend run preview"
+  }
+}

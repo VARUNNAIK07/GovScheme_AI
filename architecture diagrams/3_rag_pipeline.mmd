@@ -1,0 +1,29 @@
+flowchart TB
+    subgraph OFFLINE["Offline Indexing"]
+        G["Gov PDFs<br/>allowlisted hosts"] --> SC["Polite Scraper<br/>robots + rate limit"]
+        SC --> PA["Docling Parse<br/>layout, tables, bbox<br/>OCR only scanned pages"]
+        PA --> CH["Section-aware Chunking<br/>max 480 tokens<br/>+40 overlap in embed text only"]
+        CH --> EM["BGE-small embed<br/>384-d normalised"]
+        EM --> QD[("Qdrant<br/>scheme_id, page, bbox, is_current")]
+        CH --> PG[("PostgreSQL<br/>schemes, documents, chunks")]
+        QD --> EX["LLM Fact + Rule Extraction<br/>7 topics x top-4 chunks"]
+        EX --> VF{"Code verifies<br/>citations + overlap + fields"}
+        VF --> PG2[("scheme_facts<br/>eligibility_rules")]
+    end
+
+    subgraph ONLINE["Online Retrieval + Grounded Generation"]
+        PR["User profile"] --> QT["Tag-based query text<br/>no personal data"]
+        QT --> QE["BGE query embedding"]
+        QE --> VS["Filtered vector search<br/>state pool + is_current"]
+        QD --> VS
+        VS --> GR["Group by scheme<br/>best chunk score - top 30"]
+        GR --> CAND["Candidates to Eligibility + Scoring"]
+        CAND -.->|"user opens scheme"| EV["Evidence<br/>fact-cited chunks + top 8"]
+        PG2 --> EV
+        EV --> PM["Prompt with evidence only<br/>tagged citation_ids"]
+        PM --> LL["Groq then Gemini<br/>JSON, temp 0"]
+        LL --> CV{"Citation validator"}
+        CV -->|"valid"| OUT["Cited summary"]
+        CV -->|"no citation"| DROP["Sentence dropped"]
+        OUT --> VIEW["Click citation<br/>PDF page + highlight"]
+    end

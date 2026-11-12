@@ -1,0 +1,22 @@
+# Person A: ingestion + knowledge dependencies (CPU-only). Python 3.11.
+# Install:  python -m venv .venv ; .\.venv\Scripts\Activate.ps1 ; pip install -r ingestion/requirements.txt
+# The knowledge/ packages (sentence-transformers, qdrant-client, truststore) are also needed by
+# B's backend/pyproject.toml, because knowledge/ runs inside the API.
+docling==2.138.0              # PDF parsing; pulls CPU torch + RapidOCR on Windows
+docling-core==2.101.1
+pypdfium2==5.14.0             # page count + text-layer check
+sentence-transformers==6.1.0  # BGE embeddings
+qdrant-client==1.19.1
+SQLAlchemy==2.1.4
+psycopg[binary]==3.3.6
+alembic==1.20.0
+pydantic==2.14.1
+pydantic-settings==2.15.0
+PyYAML==6.0.3
+truststore==0.10.4            # OS certificate store (gov.in TLS chains)
+pytest==9.1.1
+groq==1.7.0                   # LLM provider 1 (extract_facts / summaries)
+google-genai==2.30.0          # LLM provider 2 (fallback)
+# Models: run once after installing ->  python -m ingestion.download_models   (stored in .venv/models)
+fastapi==0.143.0              # API (backend)
+uvicorn==0.54.0

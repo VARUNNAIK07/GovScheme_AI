@@ -1,0 +1,71 @@
+[
+  {
+    "id": "persona-farmer-ramesh",
+    "name": "Ramesh Patel",
+    "description": "Smallholder farmer in a rural district of Madhya Pradesh seeking agricultural support and crop insurance",
+    "attributes": {
+      "age": 42,
+      "gender": "male",
+      "state": "Madhya Pradesh",
+      "district": "Sehore",
+      "area_type": "rural",
+      "social_category": "obc",
+      "annual_family_income_inr": 120000,
+      "is_bpl": false,
+      "occupation": "farmer",
+      "education_level": "Secondary (10th)",
+      "disability": false,
+      "disability_percent": null,
+      "marital_status": "married",
+      "land_holding_acres": 2.5,
+      "sectors_of_interest": ["agriculture", "housing"],
+      "needs": ["crop insurance", "income support", "irrigation subsidy"]
+    }
+  },
+  {
+    "id": "persona-student-priya",
+    "name": "Priya Kumari",
+    "description": "Female SC student in Bihar pursuing higher education seeking scholarships and skill training",
+    "attributes": {
+      "age": 20,
+      "gender": "female",
+      "state": "Bihar",
+      "district": "Patna",
+      "area_type": "urban",
+      "social_category": "sc",
+      "annual_family_income_inr": 85000,
+      "is_bpl": true,
+      "occupation": "student",
+      "education_level": "Undergraduate",
+      "disability": false,
+      "disability_percent": null,
+      "marital_status": "single",
+      "land_holding_acres": null,
+      "sectors_of_interest": ["education", "women", "skill"],
+      "needs": ["post-matric scholarship", "laptop assistance", "hostel fee support"]
+    }
+  },
+  {
+    "id": "persona-senior-kamla",
+    "name": "Kamla Devi",
+    "description": "Widowed senior citizen living below the poverty line in rural Uttar Pradesh seeking pension and healthcare coverage",
+    "attributes": {
+      "age": 68,
+      "gender": "female",
+      "state": "Uttar Pradesh",
+      "district": "Varanasi",
+      "area_type": "rural",
+      "social_category": "general",
+      "annual_family_income_inr": 36000,
+      "is_bpl": true,
+      "occupation": "retired",
+      "education_level": "None / Literate",
+      "disability": false,
+      "disability_percent": null,
+      "marital_status": "widowed",
+      "land_holding_acres": null,
+      "sectors_of_interest": ["pension", "health", "housing"],
+      "needs": ["widow pension", "old age pension", "health insurance coverage"]
+    }
+  }
+]

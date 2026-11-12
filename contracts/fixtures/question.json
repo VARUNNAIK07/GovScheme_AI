@@ -1,0 +1,37 @@
+{
+  "_fixture": true,
+  "_model": "OnboardingNext",
+  "_note": "Contract fixture for stubs/MSW. Evidence/citations are REAL chunks of the official PMSBY Rules PDF (jansuraksha.gov.in, doc_id 195a99298e85821b, copied to fixtures/sample.pdf). Statuses, scores and anything marked [FIXTURE] are synthetic and must never be shown as real results.",
+  "done": false,
+  "question": {
+    "question_id": "q-sectors",
+    "field": "sectors_of_interest",
+    "text": "[FIXTURE] Which areas do you want help with?",
+    "type": "multi_choice",
+    "options": [
+      "agriculture_rural",
+      "education",
+      "employment_skills",
+      "business_msme",
+      "health",
+      "housing_utilities",
+      "women_child",
+      "social_welfare",
+      "financial_inclusion",
+      "energy_environment"
+    ],
+    "progress": 0.5,
+    "option_labels": {
+      "agriculture_rural": "Agriculture, Farming & Rural Development",
+      "education": "Education & Scholarships",
+      "employment_skills": "Employment, Skills & Livelihoods",
+      "business_msme": "Business, Entrepreneurship & MSMEs",
+      "health": "Healthcare & Medical Assistance",
+      "housing_utilities": "Housing, Sanitation & Basic Needs",
+      "women_child": "Women, Children & Family Welfare",
+      "social_welfare": "Social Welfare & Inclusion",
+      "financial_inclusion": "Financial Inclusion, Insurance & Savings",
+      "energy_environment": "Energy & Environment"
+    }
+  }
+}

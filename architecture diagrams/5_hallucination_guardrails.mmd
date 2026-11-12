@@ -1,0 +1,15 @@
+flowchart LR
+    subgraph OFF["Offline Extraction"]
+        X1["LLM proposes fact or rule"] --> X2{"Cites a chunk<br/>it was shown?"}
+        X2 -->|no| XD["Dropped"]
+        X2 -->|yes| X3{"Word overlap<br/>at least 50%?"}
+        X3 -->|no| XF["Kept but flagged"]
+        X3 -->|yes| X4{"Valid profile field<br/>and type?"}
+        X4 -->|no| XM["Manual rule<br/>NEEDS_VERIFICATION"]
+        X4 -->|yes| XS["Stored + audited"]
+    end
+    subgraph ON["Online Summary"]
+        Y1["LLM sentence"] --> Y2{"citation_id in<br/>retrieved evidence?"}
+        Y2 -->|no| YD["Dropped"]
+        Y2 -->|yes| YS["Shown with clickable citation"]
+    end

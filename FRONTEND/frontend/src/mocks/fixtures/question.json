@@ -1,0 +1,9 @@
+{
+  "_fixture": true,
+  "question_id": "q_land_holding",
+  "field": "land_holding_acres",
+  "text": "How many acres of cultivable agricultural land do you or your family hold?",
+  "type": "number",
+  "options": [],
+  "progress": 0.65
+}

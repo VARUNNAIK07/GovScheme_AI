@@ -1,0 +1,89 @@
+{
+  "_fixture": true,
+  "profile_version": 1,
+  "top": [
+    {
+      "scheme_id": "pm-kisan",
+      "name": "PM Kisan Samman Nidhi",
+      "department": "Department of Agriculture and Farmers Welfare",
+      "sector": "agriculture",
+      "eligibility_status": "ELIGIBLE",
+      "eligibility_reason": "Landholding cultivable land up to 2.0+ hectares and not an institutional landholder.",
+      "match_percent": 94
+    },
+    {
+      "scheme_id": "pmfby",
+      "name": "Pradhan Mantri Fasal Bima Yojana",
+      "department": "Ministry of Agriculture and Farmers Welfare",
+      "sector": "agriculture",
+      "eligibility_status": "ELIGIBLE",
+      "eligibility_reason": "Notified crop grower cultivating in notified area with insurable interest.",
+      "match_percent": 88
+    },
+    {
+      "scheme_id": "kcc",
+      "name": "Kisan Credit Card Scheme",
+      "department": "Department of Financial Services / MoA&FW",
+      "sector": "agriculture",
+      "eligibility_status": "ELIGIBLE",
+      "eligibility_reason": "Owner cultivator with valid land records eligible for institutional short-term credit.",
+      "match_percent": 82
+    },
+    {
+      "scheme_id": "pmksy-per-drop",
+      "name": "PM Krishi Sinchayee Yojana (Per Drop More Crop)",
+      "department": "Ministry of Agriculture and Farmers Welfare",
+      "sector": "agriculture",
+      "eligibility_status": "PARTIALLY_ELIGIBLE",
+      "eligibility_reason": "Small and marginal farmer criteria met; micro-irrigation soil suitability pending verification.",
+      "match_percent": 76
+    },
+    {
+      "scheme_id": "pmay-g",
+      "name": "Pradhan Mantri Awaas Yojana - Gramin",
+      "department": "Ministry of Rural Development",
+      "sector": "housing",
+      "eligibility_status": "NEEDS_VERIFICATION",
+      "eligibility_reason": "Requires SECC 2011 deprivation verification and Gram Sabha priority listing.",
+      "match_percent": 68
+    }
+  ],
+  "more": [
+    {
+      "scheme_id": "soil-health-card",
+      "name": "Soil Health Card Scheme",
+      "department": "Ministry of Agriculture and Farmers Welfare",
+      "sector": "agriculture",
+      "eligibility_status": "ELIGIBLE",
+      "eligibility_reason": "Open to all farmers holding cultivable agricultural land across states.",
+      "match_percent": null
+    },
+    {
+      "scheme_id": "sub-mission-agri-mech",
+      "name": "Sub-Mission on Agricultural Mechanization (SMAM)",
+      "department": "Department of Agriculture, Cooperation and Farmers Welfare",
+      "sector": "agriculture",
+      "eligibility_status": "ELIGIBLE",
+      "eligibility_reason": "Small/marginal farmer subsidy tier available for tractor and equipment hiring.",
+      "match_percent": null
+    },
+    {
+      "scheme_id": "pm-kusum-component-b",
+      "name": "PM KUSUM (Solar Agricultural Pumps)",
+      "department": "Ministry of New and Renewable Energy",
+      "sector": "agriculture",
+      "eligibility_status": "NEEDS_VERIFICATION",
+      "eligibility_reason": "Requires verification of grid power connectivity and local DISCOM cluster status.",
+      "match_percent": null
+    },
+    {
+      "scheme_id": "namo-drone-didi",
+      "name": "Sub-Mission on Agri-Drones for Women SHGs",
+      "department": "Department of Agriculture and Farmers Welfare",
+      "sector": "agriculture",
+      "eligibility_status": "NOT_ELIGIBLE",
+      "eligibility_reason": "Applicant is male; scheme is reserved exclusively for registered women Self Help Groups.",
+      "match_percent": null
+    }
+  ]
+}

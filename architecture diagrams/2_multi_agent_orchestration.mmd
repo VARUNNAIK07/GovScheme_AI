@@ -1,0 +1,14 @@
+flowchart LR
+    U(["User / Admin"]) --> API["FastAPI"]
+    API --> C{"Workflow Controller"}
+    C <--> ST[("WorkflowState<br/>+ Agent Trace")]
+    C <--> CA[("Cache<br/>key = workflow + user + profile_version")]
+
+    C -->|W1| P["Profiling Agent<br/>next adaptive question"]
+    C -->|W2| R["Retrieval Agent<br/>candidate schemes"]
+    R --> E["Eligibility Agent<br/>rule evaluation"]
+    E --> S["Scoring Agent<br/>match % + library"]
+    C -->|W3| E2["Eligibility"] --> R2["Evidence Retrieval"] --> SU["Summary Agent<br/>LLM"] --> CI["Citation Validator"]
+    C -->|W4| E3["Eligibility"] --> CM["Comparison Agent<br/>matrix + insights"]
+    C -->|W5| INV["Invalidate cache"] --> R
+    C -->|W6| RF["Refresh sources<br/>re-ingest changed PDFs"] --> INV2["Invalidate affected runs"]

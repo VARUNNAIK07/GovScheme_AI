@@ -1,0 +1,277 @@
+{
+  "_fixture": true,
+  "scheme": {
+    "scheme_id": "pm-kisan",
+    "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "sector": "agriculture",
+    "department": "Department of Agriculture and Farmers Welfare",
+    "level": "central",
+    "states": ["ALL"],
+    "beneficiary_tags": ["farmer", "rural"],
+    "summary": "PM-KISAN is a Central Sector scheme with 100% funding from Government of India providing income support of Rs 6,000 per year in three equal installments to all landholding farmers' families.",
+    "benefits": [
+      "Direct income support of ₹6,000 per annum paid in three four-monthly installments of ₹2,000 directly into Aadhaar-seeded bank accounts.",
+      "Ensures supplementary financial assistance for procuring agricultural inputs and domestic obligations during crop sowing cycles."
+    ],
+    "max_benefit_inr": 6000,
+    "documents_required": [
+      "Aadhaar Card with mobile linkage",
+      "Land ownership title / Record of Rights (RoR / Khatauni)",
+      "Bank Account details linked with Aadhaar NPCI mapper",
+      "State Citizen ID / e-KYC authentication acknowledgment"
+    ],
+    "application_steps": [
+      "Visit the official PM-KISAN portal (pmkisan.gov.in) or your local Common Service Centre (CSC).",
+      "Click on 'Farmers Corner' and select 'New Farmer Registration'.",
+      "Submit Aadhaar number, mobile number, and select state and district.",
+      "Enter landholding details including Khata number, Khasra number, and land area in hectares.",
+      "Complete mandatory Aadhaar OTP-based or biometric e-KYC to initiate automated DBT validation."
+    ],
+    "official_url": "https://pmkisan.gov.in",
+    "application_url": "https://pmkisan.gov.in/RegistrationFormNew.aspx",
+    "doc_ids": ["9b3f4e2a10d87c11"],
+    "facts_status": "verified",
+    "last_checked": "2026-10-10"
+  },
+  "eligibility": {
+    "scheme_id": "pm-kisan",
+    "status": "ELIGIBLE",
+    "checks": [
+      {
+        "rule_id": "rule_pmkisan_occupation",
+        "result": "pass",
+        "reason": "Profile occupation is verified as 'farmer' with operational landholding records.",
+        "citation_id": "9b3f4e2a10d87c11-p1-c1"
+      },
+      {
+        "rule_id": "rule_pmkisan_landholding",
+        "result": "pass",
+        "reason": "Applicant holds 2.5 acres of cultivable agricultural land, fulfilling the land ownership criteria.",
+        "citation_id": "9b3f4e2a10d87c11-p2-c1"
+      },
+      {
+        "rule_id": "rule_pmkisan_institutional_exclusion",
+        "result": "pass",
+        "reason": "Applicant is an individual cultivator, not an institutional landholder.",
+        "citation_id": "9b3f4e2a10d87c11-p3-c2"
+      },
+      {
+        "rule_id": "rule_pmkisan_income_tax",
+        "result": "pass",
+        "reason": "Annual family income of ₹1,20,000 is below income-tax assessment exclusion thresholds.",
+        "citation_id": "9b3f4e2a10d87c11-p3-c3"
+      }
+    ],
+    "reasons": [
+      "Meets the primary criteria of being a cultivable landholding farmer family.",
+      "Applicant is not in the excluded categories (constitutional posts, income tax payees, or professional bodies)."
+    ],
+    "missing_fields": []
+  },
+  "summary": {
+    "overview": [
+      {
+        "text": "Pradhan Mantri Kisan Samman Nidhi is a central sector initiative providing direct cash transfers to landholder farmer households across India.",
+        "citation_ids": ["9b3f4e2a10d87c11-p1-c1"]
+      },
+      {
+        "text": "The entire financial outlay is borne directly by the Ministry of Agriculture and Farmers Welfare with no state matching funds required.",
+        "citation_ids": ["9b3f4e2a10d87c11-p1-c2"]
+      }
+    ],
+    "relevance": [
+      {
+        "text": "Your profile indicates an active smallholder farmer cultivating 2.5 acres in rural Sehore district.",
+        "citation_ids": ["9b3f4e2a10d87c11-p2-c1"]
+      },
+      {
+        "text": "The direct income assistance helps cover input costs for fertilizers and seeds prior to peak cropping seasons.",
+        "citation_ids": ["9b3f4e2a10d87c11-p2-c3"]
+      }
+    ],
+    "eligibility": [
+      {
+        "text": "All landholding farmer families having cultivable land in their names are covered under the scheme guidelines.",
+        "citation_ids": ["9b3f4e2a10d87c11-p2-c1"]
+      },
+      {
+        "text": "Institutional landholders, retired pensioners receiving monthly pension over ₹10,000, and income tax payers in the last assessment year remain excluded.",
+        "citation_ids": ["9b3f4e2a10d87c11-p3-c2", "9b3f4e2a10d87c11-p3-c3"]
+      }
+    ],
+    "benefits": [
+      {
+        "text": "The scheme provides ₹6,000 per financial year released directly into authenticated bank accounts in three equal ₹2,000 transfers.",
+        "citation_ids": ["9b3f4e2a10d87c11-p1-c1"]
+      },
+      {
+        "text": "Payments are scheduled every four months during April-July, August-November, and December-March periods.",
+        "citation_ids": ["9b3f4e2a10d87c11-p2-c2"]
+      }
+    ],
+    "documents": [
+      {
+        "text": "Applicants must furnish Aadhaar identification, updated revenue land records (Khatauni), and an active Aadhaar-seeded bank account.",
+        "citation_ids": ["9b3f4e2a10d87c11-p4-c1"]
+      },
+      {
+        "text": "Completion of Aadhaar OTP or facial biometric e-KYC verification on the official portal is mandatory to unlock installment disbursal.",
+        "citation_ids": ["9b3f4e2a10d87c11-p4-c2"]
+      }
+    ],
+    "application": [
+      {
+        "text": "Farmers can self-register online on the PM-KISAN web portal or through authorized Village Level Entrepreneurs at Common Service Centres.",
+        "citation_ids": ["9b3f4e2a10d87c11-p5-c1"]
+      },
+      {
+        "text": "State nodal officers verify land titles with land revenue records before approving direct benefit transfer dispatch.",
+        "citation_ids": ["9b3f4e2a10d87c11-p5-c2"]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "citation_id": "9b3f4e2a10d87c11-p1-c1",
+      "chunk_id": "9b3f4e2a10d87c11-p1-c1",
+      "doc_id": "9b3f4e2a10d87c11",
+      "scheme_id": "pm-kisan",
+      "section": "1. Operational Guidelines & Scheme Architecture",
+      "page": 1,
+      "text": "The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) scheme provides an income support of Rs. 6000/- per year to all farmer families across the country in three equal four-monthly installments of Rs. 2000/- each.",
+      "bbox": [54.0, 520.0, 540.0, 575.0],
+      "source_url": "https://pmkisan.gov.in/Documents/PM-Kisan-Guidelines-Revised.pdf",
+      "doc_version": 1,
+      "score": 0.96
+    },
+    {
+      "citation_id": "9b3f4e2a10d87c11-p1-c2",
+      "chunk_id": "9b3f4e2a10d87c11-p1-c2",
+      "doc_id": "9b3f4e2a10d87c11",
+      "scheme_id": "pm-kisan",
+      "section": "1. Operational Guidelines & Scheme Architecture",
+      "page": 1,
+      "text": "PM-KISAN is a Central Sector Scheme with 100% funding from Government of India. The funds are transferred directly to the bank accounts of the beneficiaries.",
+      "bbox": [54.0, 440.0, 540.0, 490.0],
+      "source_url": "https://pmkisan.gov.in/Documents/PM-Kisan-Guidelines-Revised.pdf",
+      "doc_version": 1,
+      "score": 0.93
+    },
+    {
+      "citation_id": "9b3f4e2a10d87c11-p2-c1",
+      "chunk_id": "9b3f4e2a10d87c11-p2-c1",
+      "doc_id": "9b3f4e2a10d87c11",
+      "scheme_id": "pm-kisan",
+      "section": "2. Beneficiary Definition and Coverage",
+      "page": 2,
+      "text": "Under the revised guidelines, all landholding farmer families having cultivable land in their names are eligible to receive benefits, subject to existing exclusion criteria.",
+      "bbox": [54.0, 580.0, 540.0, 630.0],
+      "source_url": "https://pmkisan.gov.in/Documents/PM-Kisan-Guidelines-Revised.pdf",
+      "doc_version": 1,
+      "score": 0.91
+    },
+    {
+      "citation_id": "9b3f4e2a10d87c11-p2-c2",
+      "chunk_id": "9b3f4e2a10d87c11-p2-c2",
+      "doc_id": "9b3f4e2a10d87c11",
+      "scheme_id": "pm-kisan",
+      "section": "2. Beneficiary Definition and Coverage",
+      "page": 2,
+      "text": "The financial benefit of Rs. 6,000/- per year shall be disbursed in three four-monthly intervals: April to July, August to November, and December to March.",
+      "bbox": [54.0, 480.0, 540.0, 530.0],
+      "source_url": "https://pmkisan.gov.in/Documents/PM-Kisan-Guidelines-Revised.pdf",
+      "doc_version": 1,
+      "score": 0.89
+    },
+    {
+      "citation_id": "9b3f4e2a10d87c11-p2-c3",
+      "chunk_id": "9b3f4e2a10d87c11-p2-c3",
+      "doc_id": "9b3f4e2a10d87c11",
+      "scheme_id": "pm-kisan",
+      "section": "2. Beneficiary Definition and Coverage",
+      "page": 2,
+      "text": "The scheme aims to supplement the financial needs of farmers in procuring inputs to ensure proper crop health and appropriate yields at each cycle.",
+      "bbox": [54.0, 390.0, 540.0, 440.0],
+      "source_url": "https://pmkisan.gov.in/Documents/PM-Kisan-Guidelines-Revised.pdf",
+      "doc_version": 1,
+      "score": 0.86
+    },
+    {
+      "citation_id": "9b3f4e2a10d87c11-p3-c2",
+      "chunk_id": "9b3f4e2a10d87c11-p3-c2",
+      "doc_id": "9b3f4e2a10d87c11",
+      "scheme_id": "pm-kisan",
+      "section": "3. Exclusion Categories",
+      "page": 3,
+      "text": "Institutional land holders are excluded. Former and present holders of constitutional posts, ministers, MPs, MLAs, and Mayors are strictly ineligible.",
+      "bbox": [54.0, 540.0, 540.0, 600.0],
+      "source_url": "https://pmkisan.gov.in/Documents/PM-Kisan-Guidelines-Revised.pdf",
+      "doc_version": 1,
+      "score": 0.88
+    },
+    {
+      "citation_id": "9b3f4e2a10d87c11-p3-c3",
+      "chunk_id": "9b3f4e2a10d87c11-p3-c3",
+      "doc_id": "9b3f4e2a10d87c11",
+      "scheme_id": "pm-kisan",
+      "section": "3. Exclusion Categories",
+      "page": 3,
+      "text": "All persons who paid income tax in last assessment year and professionals like Doctors, Engineers, Lawyers, Chartered Accountants are not eligible.",
+      "bbox": [54.0, 450.0, 540.0, 510.0],
+      "source_url": "https://pmkisan.gov.in/Documents/PM-Kisan-Guidelines-Revised.pdf",
+      "doc_version": 1,
+      "score": 0.87
+    },
+    {
+      "citation_id": "9b3f4e2a10d87c11-p4-c1",
+      "chunk_id": "9b3f4e2a10d87c11-p4-c1",
+      "doc_id": "9b3f4e2a10d87c11",
+      "section": "4. Documentation and Identification",
+      "page": 4,
+      "text": "For the purpose of registration, the landholder farmer must submit Aadhaar card, proof of cultivable land records, and IFSC-enabled bank account number.",
+      "bbox": [54.0, 520.0, 540.0, 570.0],
+      "source_url": "https://pmkisan.gov.in/Documents/PM-Kisan-Guidelines-Revised.pdf",
+      "doc_version": 1,
+      "score": 0.85
+    },
+    {
+      "citation_id": "9b3f4e2a10d87c11-p4-c2",
+      "chunk_id": "9b3f4e2a10d87c11-p4-c2",
+      "doc_id": "9b3f4e2a10d87c11",
+      "scheme_id": "pm-kisan",
+      "section": "4. Documentation and Identification",
+      "page": 4,
+      "text": "e-KYC is mandatory for PM-KISAN registered farmers. OTP based e-KYC is available on PMKISAN Portal or biometric authentication can be done at CSC centres.",
+      "bbox": [54.0, 420.0, 540.0, 470.0],
+      "source_url": "https://pmkisan.gov.in/Documents/PM-Kisan-Guidelines-Revised.pdf",
+      "doc_version": 1,
+      "score": 0.84
+    },
+    {
+      "citation_id": "9b3f4e2a10d87c11-p5-c1",
+      "chunk_id": "9b3f4e2a10d87c11-p5-c1",
+      "doc_id": "9b3f4e2a10d87c11",
+      "scheme_id": "pm-kisan",
+      "section": "5. Implementation Modalities",
+      "page": 5,
+      "text": "Farmers can self-register at pmkisan.gov.in or through Common Service Centers (CSCs) on payment of prescribed service fees.",
+      "bbox": [54.0, 550.0, 540.0, 600.0],
+      "source_url": "https://pmkisan.gov.in/Documents/PM-Kisan-Guidelines-Revised.pdf",
+      "doc_version": 1,
+      "score": 0.82
+    },
+    {
+      "citation_id": "9b3f4e2a10d87c11-p5-c2",
+      "chunk_id": "9b3f4e2a10d87c11-p5-c2",
+      "doc_id": "9b3f4e2a10d87c11",
+      "scheme_id": "pm-kisan",
+      "section": "5. Implementation Modalities",
+      "page": 5,
+      "text": "State/UT Governments will verify the eligibility of beneficiaries and upload the approved list to the portal before fund transfer.",
+      "bbox": [54.0, 460.0, 540.0, 510.0],
+      "source_url": "https://pmkisan.gov.in/Documents/PM-Kisan-Guidelines-Revised.pdf",
+      "doc_version": 1,
+      "score": 0.81
+    }
+  ]
+}

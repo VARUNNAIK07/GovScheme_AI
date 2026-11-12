@@ -1,0 +1,474 @@
+[
+  {
+    "question_id": "q-age",
+    "field": "age",
+    "text": "How old are you?",
+    "type": "number",
+    "options": []
+  },
+  {
+    "question_id": "q-gender",
+    "field": "gender",
+    "text": "What is your gender?",
+    "type": "single_choice",
+    "options": [
+      "male",
+      "female",
+      "other"
+    ],
+    "option_labels": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    }
+  },
+  {
+    "question_id": "q-state",
+    "field": "state",
+    "text": "Which state or union territory do you live in?",
+    "type": "single_choice",
+    "options": [
+      "IN-AN",
+      "IN-AP",
+      "IN-AR",
+      "IN-AS",
+      "IN-BR",
+      "IN-CH",
+      "IN-CG",
+      "IN-DH",
+      "IN-DL",
+      "IN-GA",
+      "IN-GJ",
+      "IN-HR",
+      "IN-HP",
+      "IN-JK",
+      "IN-JH",
+      "IN-KA",
+      "IN-KL",
+      "IN-LA",
+      "IN-LD",
+      "IN-MP",
+      "IN-MH",
+      "IN-MN",
+      "IN-ML",
+      "IN-MZ",
+      "IN-NL",
+      "IN-OD",
+      "IN-PY",
+      "IN-PB",
+      "IN-RJ",
+      "IN-SK",
+      "IN-TN",
+      "IN-TS",
+      "IN-TR",
+      "IN-UP",
+      "IN-UK",
+      "IN-WB"
+    ],
+    "option_labels": {
+      "IN-AN": "Andaman and Nicobar Islands",
+      "IN-AP": "Andhra Pradesh",
+      "IN-AR": "Arunachal Pradesh",
+      "IN-AS": "Assam",
+      "IN-BR": "Bihar",
+      "IN-CH": "Chandigarh",
+      "IN-CG": "Chhattisgarh",
+      "IN-DH": "Dadra and Nagar Haveli and Daman and Diu",
+      "IN-DL": "Delhi",
+      "IN-GA": "Goa",
+      "IN-GJ": "Gujarat",
+      "IN-HR": "Haryana",
+      "IN-HP": "Himachal Pradesh",
+      "IN-JK": "Jammu and Kashmir",
+      "IN-JH": "Jharkhand",
+      "IN-KA": "Karnataka",
+      "IN-KL": "Kerala",
+      "IN-LA": "Ladakh",
+      "IN-LD": "Lakshadweep",
+      "IN-MP": "Madhya Pradesh",
+      "IN-MH": "Maharashtra",
+      "IN-MN": "Manipur",
+      "IN-ML": "Meghalaya",
+      "IN-MZ": "Mizoram",
+      "IN-NL": "Nagaland",
+      "IN-OD": "Odisha",
+      "IN-PY": "Puducherry",
+      "IN-PB": "Punjab",
+      "IN-RJ": "Rajasthan",
+      "IN-SK": "Sikkim",
+      "IN-TN": "Tamil Nadu",
+      "IN-TS": "Telangana",
+      "IN-TR": "Tripura",
+      "IN-UP": "Uttar Pradesh",
+      "IN-UK": "Uttarakhand",
+      "IN-WB": "West Bengal"
+    }
+  },
+  {
+    "question_id": "q-area",
+    "field": "area_type",
+    "text": "Do you live in a rural or an urban area?",
+    "type": "single_choice",
+    "options": [
+      "rural",
+      "urban"
+    ],
+    "option_labels": {
+      "rural": "Rural (village)",
+      "urban": "Urban (town or city)"
+    }
+  },
+  {
+    "question_id": "q-occupation",
+    "field": "occupation",
+    "text": "What do you mainly do?",
+    "type": "single_choice",
+    "options": [
+      "farmer",
+      "student",
+      "salaried",
+      "self_employed",
+      "unemployed",
+      "retired",
+      "homemaker",
+      "other"
+    ],
+    "option_labels": {
+      "farmer": "Farmer / cultivator",
+      "student": "Student",
+      "salaried": "Salaried employee",
+      "self_employed": "Self-employed / small business",
+      "unemployed": "Looking for work",
+      "retired": "Retired",
+      "homemaker": "Homemaker",
+      "other": "Other"
+    },
+    "text_if": [
+      {
+        "when": {
+          "field": "age",
+          "lte": 17
+        },
+        "text": "What do you mainly do right now? (most people your age are students)"
+      }
+    ]
+  },
+  {
+    "question_id": "q-land",
+    "field": "land_holding_acres",
+    "text": "How much farm land does your family own (in acres)?",
+    "type": "number",
+    "options": [],
+    "show_if": {
+      "field": "occupation",
+      "equals": "farmer"
+    },
+    "text_if": [
+      {
+        "when": {
+          "field": "area_type",
+          "equals": "urban"
+        },
+        "text": "How much farm land does your family own (in acres), even if you live in a town?"
+      }
+    ]
+  },
+  {
+    "question_id": "q-education",
+    "field": "education_level",
+    "text": "What is your highest education?",
+    "type": "single_choice",
+    "options": [
+      "below_10th",
+      "class_10",
+      "class_12",
+      "diploma",
+      "graduate",
+      "postgraduate",
+      "doctorate"
+    ],
+    "option_labels": {
+      "below_10th": "Below 10th",
+      "class_10": "10th pass",
+      "class_12": "12th pass",
+      "diploma": "Diploma / ITI",
+      "graduate": "Graduate",
+      "postgraduate": "Post-graduate",
+      "doctorate": "PhD / doctorate"
+    },
+    "show_if": {
+      "any": [
+        {
+          "field": "occupation",
+          "equals": "student"
+        },
+        {
+          "field": "age",
+          "lte": 25
+        }
+      ]
+    },
+    "text_if": [
+      {
+        "when": {
+          "field": "occupation",
+          "equals": "student"
+        },
+        "text": "What are you studying now (or the last level you passed)?"
+      }
+    ]
+  },
+  {
+    "question_id": "q-category",
+    "field": "social_category",
+    "text": "Which social category do you belong to?",
+    "type": "single_choice",
+    "options": [
+      "general",
+      "obc",
+      "sc",
+      "st",
+      "ews"
+    ],
+    "option_labels": {
+      "general": "General",
+      "obc": "OBC",
+      "sc": "SC",
+      "st": "ST",
+      "ews": "EWS"
+    }
+  },
+  {
+    "question_id": "q-income",
+    "field": "annual_family_income_inr",
+    "text": "What is your total family income per year (in rupees)?",
+    "type": "number",
+    "options": []
+  },
+  {
+    "question_id": "q-bpl",
+    "field": "is_bpl",
+    "text": "Does your family have a BPL (Below Poverty Line) card?",
+    "type": "boolean",
+    "options": []
+  },
+  {
+    "question_id": "q-disability",
+    "field": "disability",
+    "text": "Do you have a disability?",
+    "type": "boolean",
+    "options": []
+  },
+  {
+    "question_id": "q-disability-pct",
+    "field": "disability_percent",
+    "text": "What disability percentage is on your certificate?",
+    "type": "number",
+    "options": [],
+    "show_if": {
+      "field": "disability",
+      "equals": true
+    }
+  },
+  {
+    "question_id": "q-marital",
+    "field": "marital_status",
+    "text": "What is your marital status?",
+    "type": "single_choice",
+    "options": [
+      "single",
+      "married",
+      "widowed",
+      "divorced"
+    ],
+    "option_labels": {
+      "single": "Single",
+      "married": "Married",
+      "widowed": "Widowed",
+      "divorced": "Divorced / separated"
+    },
+    "show_if": {
+      "field": "age",
+      "gte": 18
+    }
+  },
+  {
+    "question_id": "q-needs",
+    "field": "needs",
+    "text": "What do you need help with? (choose all that apply)",
+    "type": "multi_choice",
+    "options": [
+      "scholarship or education support",
+      "pension or old-age support",
+      "medical treatment or health cover",
+      "house or home repair",
+      "toilet, cooking gas or electricity",
+      "loan or money to start a business",
+      "job, skill training or apprenticeship",
+      "farming support or crop insurance",
+      "life or accident insurance",
+      "savings scheme",
+      "support for women or children",
+      "disability support or assistive devices"
+    ],
+    "option_labels": {
+      "scholarship or education support": "Scholarship or education support",
+      "pension or old-age support": "Pension or old-age support",
+      "medical treatment or health cover": "Medical treatment or health cover",
+      "house or home repair": "House or home repair",
+      "toilet, cooking gas or electricity": "Toilet, cooking gas or electricity",
+      "loan or money to start a business": "Loan or money to start a business",
+      "job, skill training or apprenticeship": "Job, skill training or apprenticeship",
+      "farming support or crop insurance": "Farming support or crop insurance",
+      "life or accident insurance": "Life or accident insurance",
+      "savings scheme": "Savings scheme",
+      "support for women or children": "Support for women or children",
+      "disability support or assistive devices": "Disability support or assistive devices"
+    },
+    "option_show_if": {
+      "scholarship or education support": {
+        "any": [
+          {
+            "field": "occupation",
+            "equals": "student"
+          },
+          {
+            "field": "age",
+            "lte": 30
+          }
+        ]
+      },
+      "pension or old-age support": {
+        "any": [
+          {
+            "field": "age",
+            "gte": 40
+          },
+          {
+            "field": "marital_status",
+            "equals": "widowed"
+          },
+          {
+            "field": "disability",
+            "equals": true
+          }
+        ]
+      },
+      "loan or money to start a business": {
+        "all": [
+          {
+            "field": "age",
+            "gte": 18
+          },
+          {
+            "field": "occupation",
+            "not_in": [
+              "retired",
+              "student"
+            ]
+          }
+        ]
+      },
+      "job, skill training or apprenticeship": {
+        "all": [
+          {
+            "field": "age",
+            "gte": 15
+          },
+          {
+            "field": "age",
+            "lte": 45
+          },
+          {
+            "field": "occupation",
+            "not_in": [
+              "retired"
+            ]
+          }
+        ]
+      },
+      "farming support or crop insurance": {
+        "any": [
+          {
+            "field": "occupation",
+            "equals": "farmer"
+          },
+          {
+            "field": "area_type",
+            "equals": "rural"
+          }
+        ]
+      },
+      "life or accident insurance": {
+        "all": [
+          {
+            "field": "age",
+            "gte": 18
+          },
+          {
+            "field": "age",
+            "lte": 70
+          }
+        ]
+      },
+      "support for women or children": {
+        "any": [
+          {
+            "field": "gender",
+            "equals": "female"
+          },
+          {
+            "field": "marital_status",
+            "in": [
+              "married",
+              "widowed",
+              "divorced"
+            ]
+          }
+        ]
+      },
+      "disability support or assistive devices": {
+        "any": [
+          {
+            "field": "disability",
+            "equals": true
+          },
+          {
+            "field": "age",
+            "gte": 60
+          }
+        ]
+      }
+    }
+  },
+  {
+    "question_id": "q-sectors",
+    "field": "sectors_of_interest",
+    "text": "Which areas should we look at for you?",
+    "type": "multi_choice",
+    "options": [
+      "agriculture_rural",
+      "education",
+      "employment_skills",
+      "business_msme",
+      "health",
+      "housing_utilities",
+      "women_child",
+      "social_welfare",
+      "financial_inclusion",
+      "energy_environment"
+    ],
+    "option_labels": {
+      "agriculture_rural": "Agriculture, Farming & Rural Development",
+      "education": "Education & Scholarships",
+      "employment_skills": "Employment, Skills & Livelihoods",
+      "business_msme": "Business, Entrepreneurship & MSMEs",
+      "health": "Healthcare & Medical Assistance",
+      "housing_utilities": "Housing, Sanitation & Basic Needs",
+      "women_child": "Women, Children & Family Welfare",
+      "social_welfare": "Social Welfare & Inclusion",
+      "financial_inclusion": "Financial Inclusion, Insurance & Savings",
+      "energy_environment": "Energy & Environment"
+    }
+  }
+]

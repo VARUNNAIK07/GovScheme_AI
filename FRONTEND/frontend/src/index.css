@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 font-sans antialiased min-h-screen;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* High contrast focus outline for accessibility */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-gov-700;
+  }
+}
+
+/* Citation chip custom badge */
+.citation-chip {
+  @apply inline-flex items-center justify-center text-xs font-semibold px-1.5 py-0.5 mx-0.5 rounded text-gov-800 bg-gov-100 border border-gov-300 hover:bg-gov-200 hover:border-gov-400 transition-colors cursor-pointer align-baseline;
+  font-feature-settings: "tnum";
+}
+
+/* PDF highlight box overlay */
+.pdf-highlight-box {
+  @apply absolute border-2 border-amber-500 bg-amber-400 bg-opacity-25 pointer-events-none transition-opacity;
+}

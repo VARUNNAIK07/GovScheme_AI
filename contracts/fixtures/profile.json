@@ -1,0 +1,32 @@
+{
+  "_fixture": true,
+  "_model": "Profile",
+  "_note": "Contract fixture for stubs/MSW. Evidence/citations are REAL chunks of the official PMSBY Rules PDF (jansuraksha.gov.in, doc_id 195a99298e85821b, copied to fixtures/sample.pdf). Statuses, scores and anything marked [FIXTURE] are synthetic and must never be shown as real results.",
+  "user_id": "00000000-0000-4000-8000-000000000001",
+  "version": 1,
+  "attributes": {
+    "age": 45,
+    "gender": "male",
+    "state": "IN-UP",
+    "district": "Barabanki",
+    "area_type": "rural",
+    "social_category": "obc",
+    "annual_family_income_inr": 90000,
+    "is_bpl": false,
+    "occupation": "farmer",
+    "education_level": "secondary",
+    "disability": false,
+    "disability_percent": null,
+    "marital_status": "married",
+    "land_holding_acres": 2.5,
+    "sectors_of_interest": [
+      "agriculture_rural",
+      "financial_inclusion"
+    ],
+    "needs": [
+      "crop insurance",
+      "pension"
+    ]
+  },
+  "complete": true
+}

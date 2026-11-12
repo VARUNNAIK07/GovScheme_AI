@@ -1,0 +1,19 @@
+{
+  "_fixture": true,
+  "_model": "CitationTarget",
+  "_note": "Contract fixture for stubs/MSW. Evidence/citations are REAL chunks of the official PMSBY Rules PDF (jansuraksha.gov.in, doc_id 195a99298e85821b, copied to fixtures/sample.pdf). Statuses, scores and anything marked [FIXTURE] are synthetic and must never be shown as real results.",
+  "citation_id": "195a99298e85821b-p1-c1",
+  "doc_id": "195a99298e85821b",
+  "file_url": "/api/documents/195a99298e85821b/file",
+  "page": 1,
+  "bbox": [
+    88.7,
+    90.17,
+    523.29,
+    211.23
+  ],
+  "quote": "a, Table of Benefits = Death. a, Sum Insured = Rs. 2 Lakh. b, Table of Benefits = Total and irrecoverable loss of both eyes or loss of use of both hands or feet or loss of sight of one eye and loss of use of hand or foot. b, Sum Insured = Rs. 2 Lakh. c, Table of Benefits = Total and irrecoverable loss of sight of one eye or loss of use of one hand or foot. c, Sum Insured = Rs. 1 Lakh\nPremium: Rs. 20/- per annum per member. The premium will be deducted from the account holder's bank/ Post office account through 'auto debit' facility in one instalment on or before 1 st June of each annual covera",
+  "source_url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
+  "doc_version": 1,
+  "precision": "passage"
+}

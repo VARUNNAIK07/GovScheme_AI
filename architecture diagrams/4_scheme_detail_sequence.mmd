@@ -1,0 +1,28 @@
+sequenceDiagram
+    participant FE as Frontend
+    participant CT as Controller
+    participant EA as Eligibility Agent
+    participant RA as Retrieval Agent
+    participant QD as Qdrant
+    participant PG as PostgreSQL
+    participant SU as Summary Agent
+    participant LLM as Groq / Gemini
+    participant CI as Citation Validator
+
+    FE->>CT: GET scheme detail
+    CT->>PG: load scheme + rules
+    CT->>EA: evaluate profile vs rules
+    CT->>RA: get evidence
+    RA->>PG: chunks cited by stored facts
+    RA->>QD: top-k chunks for scheme
+    RA-->>CT: deduplicated evidence
+    CT->>SU: summarize(scheme, eligibility, evidence)
+    SU->>LLM: evidence passages only, no profile
+    alt LLM available
+        LLM-->>SU: JSON sections + citation_ids
+        SU->>CI: drop uncited sentences
+    else LLM down
+        SU->>PG: build summary from verified facts
+    end
+    SU-->>CT: cited summary + relevance from rules
+    CT-->>FE: SchemeDetail + cited evidence

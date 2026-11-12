@@ -1,0 +1,90 @@
+{
+  "_fixture": true,
+  "_note": "SYNTHETIC test people (section 6). Not real persons; no scheme facts here.",
+  "personas": [
+    {
+      "persona_id": "farmer_rural",
+      "label": "Farmer in a rural district",
+      "attributes": {
+        "age": 45,
+        "gender": "male",
+        "state": "IN-UP",
+        "district": "Barabanki",
+        "area_type": "rural",
+        "social_category": "obc",
+        "annual_family_income_inr": 90000,
+        "is_bpl": false,
+        "occupation": "farmer",
+        "education_level": "secondary",
+        "disability": false,
+        "disability_percent": null,
+        "marital_status": "married",
+        "land_holding_acres": 2.5,
+        "sectors_of_interest": [
+          "agriculture_rural",
+          "financial_inclusion"
+        ],
+        "needs": [
+          "crop insurance",
+          "pension"
+        ]
+      }
+    },
+    {
+      "persona_id": "student_sc_female",
+      "label": "Female SC student",
+      "attributes": {
+        "age": 19,
+        "gender": "female",
+        "state": "IN-MH",
+        "district": "Pune",
+        "area_type": "urban",
+        "social_category": "sc",
+        "annual_family_income_inr": 180000,
+        "is_bpl": false,
+        "occupation": "student",
+        "education_level": "undergraduate",
+        "disability": false,
+        "disability_percent": null,
+        "marital_status": "single",
+        "land_holding_acres": null,
+        "sectors_of_interest": [
+          "education",
+          "employment_skills"
+        ],
+        "needs": [
+          "scholarship",
+          "hostel fees"
+        ]
+      }
+    },
+    {
+      "persona_id": "senior_widow_bpl",
+      "label": "Widowed senior citizen on BPL",
+      "attributes": {
+        "age": 67,
+        "gender": "female",
+        "state": "IN-BR",
+        "district": "Gaya",
+        "area_type": "rural",
+        "social_category": "general",
+        "annual_family_income_inr": 36000,
+        "is_bpl": true,
+        "occupation": "homemaker",
+        "education_level": "none",
+        "disability": false,
+        "disability_percent": null,
+        "marital_status": "widowed",
+        "land_holding_acres": null,
+        "sectors_of_interest": [
+          "social_welfare",
+          "health"
+        ],
+        "needs": [
+          "widow pension",
+          "free medical treatment"
+        ]
+      }
+    }
+  ]
+}

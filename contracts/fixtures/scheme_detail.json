@@ -1,0 +1,221 @@
+{
+  "_fixture": true,
+  "_model": "SchemeDetail",
+  "_note": "Contract fixture for stubs/MSW. Evidence/citations are REAL chunks of the official PMSBY Rules PDF (jansuraksha.gov.in, doc_id 195a99298e85821b, copied to fixtures/sample.pdf). Statuses, scores and anything marked [FIXTURE] are synthetic and must never be shown as real results.",
+  "scheme": {
+    "scheme_id": "pmsby",
+    "name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "sector": "financial_inclusion",
+    "department": "Ministry of Finance (DFS)",
+    "level": "central",
+    "states": [
+      "ALL"
+    ],
+    "beneficiary_tags": [],
+    "summary": "PMSBY is an Accident Insurance Scheme offering accidental death and disability cover for death or disability on account of an accident. It would be a one-year cover, renewable from year to year.",
+    "benefits": [
+      "a, Table of Benefits = Death. a, Sum Insured = Rs. 2 Lakh.",
+      "c, Table of Benefits = Total and irrecoverable loss of sight of one eye or loss of use of one hand or foot. c, Sum Insured = Rs. 1 Lakh"
+    ],
+    "max_benefit_inr": 200000,
+    "documents_required": [
+      "Enrolment form / Auto-debit authorization in the prescribed proforma shall be obtained and retained by the participating bank/ Post office."
+    ],
+    "application_steps": [
+      "Enrolment Modality / Period: The cover shall be for the one-year period stretching from 1st June to 31st May for which option to join / pay by auto-debit from the designated bank/ Post office account on the prescribed forms will be required to be given by 31st May of every year."
+    ],
+    "official_url": "https://jansuraksha.gov.in/",
+    "application_url": null,
+    "doc_ids": [
+      "195a99298e85821b"
+    ],
+    "facts_status": "incomplete",
+    "last_checked": "2026-10-12",
+    "secondary_sectors": [],
+    "benefit_types": [
+      "insurance"
+    ],
+    "max_benefit_period": "one_time",
+    "fact_citations": {
+      "summary": [
+        "195a99298e85821b-p1-c0"
+      ],
+      "benefits": [
+        "195a99298e85821b-p1-c1"
+      ],
+      "max_benefit_inr": [
+        "195a99298e85821b-p1-c1"
+      ],
+      "documents_required": [
+        "195a99298e85821b-p2-c0"
+      ],
+      "application_steps": [
+        "195a99298e85821b-p1-c0"
+      ],
+      "limitations": [
+        "195a99298e85821b-p1-c1"
+      ]
+    },
+    "limitations": [
+      "Termination of cover: The accident cover for the member shall terminate on any of the following events and no benefit will be payable there under:\n1) On attaining age 70 years (age nearest birthday)."
+    ]
+  },
+  "eligibility": {
+    "scheme_id": "pmsby",
+    "status": "NEEDS_VERIFICATION",
+    "checks": [
+      {
+        "rule_id": "pmsby-r1",
+        "result": "pass",
+        "reason": "[FIXTURE] Age 45 is between 18 and 70.",
+        "citation_id": "195a99298e85821b-p1-c1"
+      },
+      {
+        "rule_id": "pmsby-r2",
+        "result": "ambiguous",
+        "reason": "[FIXTURE] Needs a bank or Post office account; not asked in the profile.",
+        "citation_id": "195a99298e85821b-p1-c1"
+      }
+    ],
+    "reasons": [
+      "[FIXTURE] Age requirement met; bank/Post office account holding cannot be checked from the profile."
+    ],
+    "missing_fields": []
+  },
+  "summary": {
+    "overview": [
+      {
+        "text": "PMSBY is an Accident Insurance Scheme offering accidental death and disability cover for death or disability on account of an accident. It would be a one-year cover, renewable from year to year.",
+        "citation_ids": [
+          "195a99298e85821b-p1-c0"
+        ]
+      }
+    ],
+    "relevance": [
+      {
+        "text": "Matches your profile: [FIXTURE] Age 45 is between 18 and 70.",
+        "citation_ids": [
+          "195a99298e85821b-p1-c1"
+        ]
+      },
+      {
+        "text": "Needs an official check: [FIXTURE] Needs a bank or Post office account; not asked in the profile.",
+        "citation_ids": [
+          "195a99298e85821b-p1-c1"
+        ]
+      }
+    ],
+    "eligibility": [
+      {
+        "text": "Eligibility Conditions: Individual bank/ Post office account holders of participating banks/ Post office aged between 18 years (completed) and 70 years (age nearer birthday) who give their consent to join / enable auto-debit, as per the above modality, will be enrolled into the scheme.",
+        "citation_ids": [
+          "195a99298e85821b-p1-c1"
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "text": "a, Table of Benefits = Death. a, Sum Insured = Rs. 2 Lakh. b, Table of Benefits = Total and irrecoverable loss of both eyes or loss of use of both hands or feet or loss of sight of one eye and loss of use of hand or foot. b, Sum Insured = Rs. 2 Lakh. c, Table of Benefits = Total and irrecoverable loss of sight of one eye or loss of use of one hand or foot. c, Sum Insured = Rs. 1 Lakh",
+        "citation_ids": [
+          "195a99298e85821b-p1-c1"
+        ]
+      },
+      {
+        "text": "Premium: Rs. 20/- per annum per member.",
+        "citation_ids": [
+          "195a99298e85821b-p1-c1"
+        ]
+      }
+    ],
+    "documents": [
+      {
+        "text": "Enrolment form / Auto-debit authorization in the prescribed proforma shall be obtained and retained by the participating bank/ Post office.",
+        "citation_ids": [
+          "195a99298e85821b-p2-c0"
+        ]
+      }
+    ],
+    "application": [
+      {
+        "text": "Enrolment Modality / Period: The cover shall be for the one-year period stretching from 1st June to 31st May for which option to join / pay by auto-debit from the designated bank/ Post office account on the prescribed forms will be required to be given by 31st May of every year.",
+        "citation_ids": [
+          "195a99298e85821b-p1-c0"
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "citation_id": "195a99298e85821b-p1-c0",
+      "chunk_id": "195a99298e85821b-p1-c0",
+      "doc_id": "195a99298e85821b",
+      "scheme_id": "pmsby",
+      "section": "DETAILS OF THE SCHEME:",
+      "page": 1,
+      "text": "PMSBY is an Accident Insurance Scheme offering accidental death and disability cover for death or disability on account of an accident. It would be a one-year cover, renewable from year to year. The scheme would be offered / administered through Public Sector General Insurance Companies (PSGICs) and other General Insurance companies willing to offer the product on similar terms with necessary approvals and tie up with Banks / Post office for this purpose. Participating banks / Post office will be free to engage any such insurance company for implementing the scheme for their subscribers.\nScope of coverage: All individual bank/ Post office account holders in the age group of 18 to 70 years in participating banks/ Post office will be entitled to join. In case of multiple bank/ Post office accounts held by an individual in one or different banks/ Post office, the person would be eligible to join the scheme through one bank / Post office account only. Aadhar would be the primary KYC for the bank/ Post office account.\nEnrolment Modality / Period: The cover shall be for the one-year period stretching from 1st June to 31st May for which option to join / pay by auto-debit from the designated bank/ Post office account on the prescribed forms will be required to be given by 31st May of every year. Joining subsequently on payment of full annual premium would be possible. However, applicants may give an indefinite / longer option for enrolment / auto-debit, subject to continuation of the scheme with terms as may be revised on the basis of past experience. Individuals who exit the scheme at any point may re-join the scheme in future years through the above modality. New entrants into the eligible category from year to year or currently eligible individuals who did not join earlier shall be able to join in future years while the scheme is continuing.\nBenefits: As per the following table:",
+      "bbox": [
+        90.02,
+        230.5,
+        522.06,
+        712.62
+      ],
+      "source_url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
+      "doc_version": 1,
+      "score": null
+    },
+    {
+      "citation_id": "195a99298e85821b-p1-c1",
+      "chunk_id": "195a99298e85821b-p1-c1",
+      "doc_id": "195a99298e85821b",
+      "scheme_id": "pmsby",
+      "section": "DETAILS OF THE SCHEME:",
+      "page": 1,
+      "text": "a, Table of Benefits = Death. a, Sum Insured = Rs. 2 Lakh. b, Table of Benefits = Total and irrecoverable loss of both eyes or loss of use of both hands or feet or loss of sight of one eye and loss of use of hand or foot. b, Sum Insured = Rs. 2 Lakh. c, Table of Benefits = Total and irrecoverable loss of sight of one eye or loss of use of one hand or foot. c, Sum Insured = Rs. 1 Lakh\nPremium: Rs. 20/- per annum per member. The premium will be deducted from the account holder's bank/ Post office account through 'auto debit' facility in one instalment on or before 1 st June of each annual coverage period under the scheme. However, in cases where auto debit takes place after 1st June, the cover shall commence from the date of auto debit of premium by Bank/ Post office. The premium would be reviewed based on annual claims experience.\nEligibility Conditions: Individual bank/ Post office account holders of participating banks/ Post office aged between 18 years (completed) and 70 years (age nearer birthday) who give their consent to join / enable auto-debit, as per the above modality, will be enrolled into the scheme.\nMaster Policy Holder: Participating Bank/ Post office will be the Master policy holder on behalf of the participating subscribers. A simple and subscriber friendly administration & claim settlement process has been finalized by the respective general insurance company in consultation with the participating Banks.\nTermination of cover: The accident cover for the member shall terminate on any of the following events and no benefit will be payable there under:\n1) On attaining age 70 years (age nearest birthday).\n2) Closure of account with the Bank/ Post office or insufficiency of balance to keep the insurance in force.",
+      "bbox": [
+        88.7,
+        90.17,
+        523.29,
+        211.23
+      ],
+      "source_url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
+      "doc_version": 1,
+      "score": null
+    },
+    {
+      "citation_id": "195a99298e85821b-p2-c0",
+      "chunk_id": "195a99298e85821b-p2-c0",
+      "doc_id": "195a99298e85821b",
+      "scheme_id": "pmsby",
+      "section": "DETAILS OF THE SCHEME:",
+      "page": 2,
+      "text": "3) In case a member is covered through more than one account and premium is received by the Insurance Company inadvertently, insurance cover will be restricted to one bank/ Post office account only and the premium paid for duplicate insurance(s) shall be liable to be forfeited.\n4) If the insurance cover is ceased due to any technical reasons such as insufficient balance on due date or due to any administrative issues, the same can be reinstated on receipt of full annual premium, subject to conditions that may be laid down. During this period, the risk cover will be suspended and reinstatement of risk cover will be at the sole discretion of Insurance Company.\n5) Participating banks will deduct the premium amount in the same month when the auto debit option is given, preferably in May of every year, and remit the amount due to the Insurance Company in that month itself.\nAdministration: The scheme, subject to the above, will be administered as per the standard procedure stipulated by the Insurance Company. The data flow process and data proforma will be provided separately.\nIt will be the responsibility of the participating bank/ Post office to recover the appropriate annual premium from the account holders within the prescribed period through 'auto-debit' process.\nEnrolment form / Auto-debit authorization in the prescribed proforma shall be obtained and retained by the participating bank/ Post office. In case of claim, the Insurance Company may seek submission of the same. Insurance Company reserves the right to call for these documents at any point of time.\nThe acknowledgement slip may be made into an acknowledgement slip-cumcertificate of insurance.\nThe scheme is liable to be discontinued prior to commencement of a new future renewal date if circumstances so require.",
+      "bbox": [
+        90.02,
+        88.76,
+        522.09,
+        385.83
+      ],
+      "source_url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
+      "doc_version": 1,
+      "score": null
+    },
+    {
+      "citation_id": "195a99298e85821b-p3-c0",
+      "chunk_id": "195a99298e85821b-p3-c0",
+      "doc_id": "195a99298e85821b",
+      "scheme_id": "pmsby",
+      "section": "Appropriation of Premium:",
+      "page": 3,
+      "text": "- 1) Insurance Premium payable to Insurance Company: Rs. 20/- per annum per member\n- 2) Commission payable to Business Correspondents, agents, etc. by the insurer: Re.1/- per member (for new enrolments only).\n- 3) Administrative expenses payable to participating Bank by insurer: Re.1/- per annum per member\nNote: The amount of commission payable to Business Correspondents, agents, etc. as specified in item 2) saved in case of voluntary enrolment by an accountholder through electronic means shall be passed on as a benefit to the subscriber by correspondingly reducing the amount of the Insurance Premium payable specified in item 1).",
+      "bbox": [
+        90.02,
+        278.62,
+        522.11,
+        503.55
+      ],
+      "source_url": "https://jansuraksha.gov.in/Files/PMSBY/English/Rules.pdf",
+      "doc_version": 1,
+      "score": null
+    }
+  ]
+}

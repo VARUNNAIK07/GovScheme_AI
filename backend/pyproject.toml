@@ -1,0 +1,23 @@
+[project]
+name = "govscheme-ai-backend"
+version = "1.0.0"
+requires-python = ">=3.11"
+# API (B) + knowledge layer it calls (A). Ingestion-only extras (Docling) are in ingestion/requirements.txt.
+dependencies = [
+  "fastapi==0.143.0",
+  "uvicorn==0.54.0",
+  "pydantic==2.14.1",
+  "pydantic-settings==2.15.0",
+  "SQLAlchemy==2.1.4",
+  "psycopg[binary]==3.3.6",
+  "alembic==1.20.0",
+  "sentence-transformers==6.1.0",
+  "qdrant-client==1.19.1",
+  "truststore==0.10.4",
+  "groq==1.7.0",
+  "google-genai==2.30.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["backend/tests"]

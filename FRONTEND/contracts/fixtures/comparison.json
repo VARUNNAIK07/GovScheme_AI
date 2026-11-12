@@ -1,0 +1,164 @@
+{
+  "_fixture": true,
+  "matrix": {
+    "scheme_ids": ["pm-kisan", "pmfby", "kcc"],
+    "fields": [
+      "target_group",
+      "eligibility_status",
+      "benefits",
+      "max_benefit_inr",
+      "documents",
+      "application_process",
+      "limitations"
+    ],
+    "cells": {
+      "pm-kisan": {
+        "target_group": {
+          "value": "All small, marginal, and landholding farmer families with cultivable land in operational possession.",
+          "citation_ids": ["9b3f4e2a10d87c11-p2-c1"]
+        },
+        "eligibility_status": {
+          "value": "ELIGIBLE (All landholding and exclusion checks passed)",
+          "citation_ids": ["9b3f4e2a10d87c11-p2-c1", "9b3f4e2a10d87c11-p3-c2"]
+        },
+        "benefits": {
+          "value": "Direct bank transfer of ₹6,000 per year delivered in 3 equal installments of ₹2,000.",
+          "citation_ids": ["9b3f4e2a10d87c11-p1-c1"]
+        },
+        "max_benefit_inr": {
+          "value": "₹6,000 per financial year",
+          "citation_ids": ["9b3f4e2a10d87c11-p1-c1"]
+        },
+        "documents": {
+          "value": "Aadhaar Card, Land Record of Rights (Khatauni), and Aadhaar-seeded Bank Account with e-KYC.",
+          "citation_ids": ["9b3f4e2a10d87c11-p4-c1"]
+        },
+        "application_process": {
+          "value": "Online registration via pmkisan.gov.in portal or assisted submission at nearest CSC center.",
+          "citation_ids": ["9b3f4e2a10d87c11-p5-c1"]
+        },
+        "limitations": {
+          "value": "Excludes institutional landholders, income tax payees, and government pensioners receiving over ₹10,000/mo.",
+          "citation_ids": ["9b3f4e2a10d87c11-p3-c2", "9b3f4e2a10d87c11-p3-c3"]
+        }
+      },
+      "pmfby": {
+        "target_group": {
+          "value": "Farmers cultivating notified crops in notified insurance units (loanee and non-loanee growers).",
+          "citation_ids": ["e4d7a8c19012bb34-p1-c1"]
+        },
+        "eligibility_status": {
+          "value": "ELIGIBLE (Crop sown in notified district under notified seasonal window)",
+          "citation_ids": ["e4d7a8c19012bb34-p1-c2"]
+        },
+        "benefits": {
+          "value": "Comprehensive risk insurance covering prevented sowing, standing crop loss, post-harvest losses, and localized calamities.",
+          "citation_ids": ["e4d7a8c19012bb34-p2-c1"]
+        },
+        "max_benefit_inr": {
+          "value": "Sum insured up to cost of cultivation per hectare (variable based on scale of finance)",
+          "citation_ids": ["e4d7a8c19012bb34-p2-c2"]
+        },
+        "documents": {
+          "value": "Sowing Certificate / Patwari report, Land Possession Certificate / RoR, Aadhaar Card, Bank Passbook.",
+          "citation_ids": ["e4d7a8c19012bb34-p3-c1"]
+        },
+        "application_process": {
+          "value": "Apply via National Crop Insurance Portal (pmfby.gov.in), commercial bank branches, or CSC within cut-off date.",
+          "citation_ids": ["e4d7a8c19012bb34-p4-c1"]
+        },
+        "limitations": {
+          "value": "Losses due to war, nuclear risks, malicious damage, and preventable pest attacks are excluded.",
+          "citation_ids": ["e4d7a8c19012bb34-p5-c1"]
+        }
+      },
+      "kcc": {
+        "target_group": {
+          "value": "Individual/joint owner cultivators, tenant farmers, oral lessees, and sharecroppers.",
+          "citation_ids": ["7c2a1188de44fa09-p1-c1"]
+        },
+        "eligibility_status": {
+          "value": "ELIGIBLE (Eligible farmer with cultivable land records)",
+          "citation_ids": ["7c2a1188de44fa09-p1-c2"]
+        },
+        "benefits": {
+          "value": "Revolving credit line for crop cultivation expenses at subsidized interest rate of 4% per annum (with prompt repayment incentive).",
+          "citation_ids": ["7c2a1188de44fa09-p2-c1"]
+        },
+        "max_benefit_inr": {
+          "value": "Collateral-free credit limit up to ₹1,60,000; scale-of-finance limits up to ₹3,00,000 at 4% effective interest",
+          "citation_ids": ["7c2a1188de44fa09-p2-c2"]
+        },
+        "documents": {
+          "value": "Filled application form, Land ownership records / tenancy agreement, Identity proof (Aadhaar/Voter ID), Pan card.",
+          "citation_ids": ["7c2a1188de44fa09-p3-c1"]
+        },
+        "application_process": {
+          "value": "Apply at rural/commercial bank branches, Cooperative Banks, Regional Rural Banks, or through online portal.",
+          "citation_ids": ["7c2a1188de44fa09-p4-c1"]
+        },
+        "limitations": {
+          "value": "Defaults on existing agricultural loans disqualify applicant until restructured or cleared.",
+          "citation_ids": ["7c2a1188de44fa09-p5-c1"]
+        }
+      }
+    }
+  },
+  "insights": {
+    "insights": [
+      {
+        "text": "PM-KISAN offers unconditional liquidity of ₹6,000 directly to landholder accounts, whereas PMFBY acts as insurance protection against weather hazards.",
+        "citation_ids": ["9b3f4e2a10d87c11-p1-c1", "e4d7a8c19012bb34-p2-c1"]
+      },
+      {
+        "text": "Kisan Credit Card (KCC) provides working capital at 4% effective interest up to ₹3,00,000, creating operational synergy when paired with PM-KISAN cash transfers.",
+        "citation_ids": ["7c2a1188de44fa09-p2-c1", "9b3f4e2a10d87c11-p1-c1"]
+      },
+      {
+        "text": "All three schemes accept Aadhaar and Land Records (Khatauni) as primary identification, streamlining document verification across services.",
+        "citation_ids": ["9b3f4e2a10d87c11-p4-c1", "e4d7a8c19012bb34-p3-c1", "7c2a1188de44fa09-p3-c1"]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "citation_id": "9b3f4e2a10d87c11-p1-c1",
+      "chunk_id": "9b3f4e2a10d87c11-p1-c1",
+      "doc_id": "9b3f4e2a10d87c11",
+      "scheme_id": "pm-kisan",
+      "section": "1. Operational Guidelines",
+      "page": 1,
+      "text": "The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) scheme provides an income support of Rs. 6000/- per year to all farmer families across the country in three equal four-monthly installments of Rs. 2000/- each.",
+      "bbox": [54.0, 520.0, 540.0, 575.0],
+      "source_url": "https://pmkisan.gov.in/Documents/PM-Kisan-Guidelines-Revised.pdf",
+      "doc_version": 1,
+      "score": 0.95
+    },
+    {
+      "citation_id": "e4d7a8c19012bb34-p2-c1",
+      "chunk_id": "e4d7a8c19012bb34-p2-c1",
+      "doc_id": "e4d7a8c19012bb34",
+      "scheme_id": "pmfby",
+      "section": "Coverage of Risks and Benefits",
+      "page": 2,
+      "text": "PMFBY provides comprehensive crop insurance coverage against non-preventable natural risks from pre-sowing to post-harvest stages.",
+      "bbox": [60.0, 480.0, 520.0, 540.0],
+      "source_url": "https://pmfby.gov.in/pdf/Revised_Operational_Guidelines.pdf",
+      "doc_version": 1,
+      "score": 0.91
+    },
+    {
+      "citation_id": "7c2a1188de44fa09-p2-c1",
+      "chunk_id": "7c2a1188de44fa09-p2-c1",
+      "doc_id": "7c2a1188de44fa09",
+      "scheme_id": "kcc",
+      "section": "Interest Subvention and Credit Terms",
+      "page": 2,
+      "text": "Short-term crop loans up to Rs. 3 lakh are extended at a benchmark 7% interest rate with 3% prompt repayment incentive, reducing the effective rate to 4% p.a.",
+      "bbox": [50.0, 460.0, 530.0, 510.0],
+      "source_url": "https://financialservices.gov.in/schemes/kisan-credit-card",
+      "doc_version": 1,
+      "score": 0.9
+    }
+  ]
+}
